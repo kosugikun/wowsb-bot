@@ -138,7 +138,7 @@ async def myoko(ctx):
 
 @bot.command()
 async def takao(ctx):
-    embed = discord.Embed(title="大日本帝国海軍", description="巡洋艦Tier VIII Takao (妙高型重巡洋艦)", color=0xeee657)
+    embed = discord.Embed(title="大日本帝国海軍", description="巡洋艦Tier VIII Takao (高雄型重巡洋艦)", color=0xeee657)
 
     embed.set_image(url="https://mcpenano.net/WoWsB/Takao.jpg")
 
@@ -187,7 +187,7 @@ async def japan(ctx):
 
     embed.add_field(name="!!zao", value="大日本帝国海軍 巡洋艦Tier X Zao (蔵王(マル六甲巡))", inline=False)
     embed.add_field(name="!!ibuki", value="大日本帝国海軍 巡洋艦Tier IX Ibuki (伊吹型重巡洋艦(改鈴谷型重巡洋艦))", inline=False)
-    embed.add_field(name="!!takao", value="大日本帝国海軍 巡洋艦Tier VIII Takao (妙高型重巡洋艦)", inline=False)
+    embed.add_field(name="!!takao", value="大日本帝国海軍 巡洋艦Tier VIII Takao (高雄型重巡洋艦)", inline=False)
     embed.add_field(name="!!myoko", value="大日本帝国海軍 巡洋艦Tier VII Myoko (妙高型重巡洋艦)", inline=False)
     embed.add_field(name="!!aoba", value="大日本帝国海軍 巡洋艦Tier VI Aoba (青葉型重巡洋艦)", inline=False)
     embed.add_field(name="!!furutaka", value="大日本帝国海軍 巡洋艦Tier V Furutaka (古鷹型重巡洋艦)", inline=False)
