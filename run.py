@@ -74,7 +74,21 @@ async def chikuma(ctx):
 async def tenryu(ctx):
     embed = discord.Embed(title="大日本帝国海軍", description="巡洋艦Tier III Tenryu (天龍型軽巡洋艦)", color=0xeee657)
 
-    embed.set_image(url="https://mcpenano.net/WoWsB/Chikuma.jpg")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Tenryu.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n数値\n**抗堪性**\n･防郭防御<数値>％･火災浸水耐性<数値>％･装甲<数値>％･対水雷防御<数値>％\n**装甲**\n ･装甲さ<数値>mm-<数値>mm･防郭 <数値>mm-<数値>mm･艦首/艦尾 <数値>mm･装甲甲板 <数値>mm")
+    embed.add_field(name="主砲射程", value="<数値>")
+    embed.add_field(name="機動性", value="<数値>")
+    embed.add_field(name="隠蔽性", value="<数値>")
+    embed.add_field(name="推力", value="<数値>")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def kuma(ctx):
+    embed = discord.Embed(title="大日本帝国海軍", description="巡洋艦Tier IV Kuma (球磨型軽巡洋艦)", color=0xeee657)
+
+    embed.set_image(url="https://mcpenano.net/WoWsB/Tenryu.jpg")
 
     embed.add_field(name="生存性", value="**継戦能力**\n数値\n**抗堪性**\n･防郭防御<数値>％･火災浸水耐性<数値>％･装甲<数値>％･対水雷防御<数値>％\n**装甲**\n ･装甲さ<数値>mm-<数値>mm･防郭 <数値>mm-<数値>mm･艦首/艦尾 <数値>mm･装甲甲板 <数値>mm")
     embed.add_field(name="主砲射程", value="<数値>")
@@ -91,6 +105,7 @@ bot.remove_command('help')
 async def help(ctx):
     embed = discord.Embed(title="WoWsb軍艦辞典", description="コマンドのリストを表示します。", color=0xeee657)
 
+    embed.add_field(name="$kuma", value="大日本帝国海軍 巡洋艦Tier IV Kuma (球磨型軽巡洋艦)", inline=False)
     embed.add_field(name="$tenryu", value="大日本帝国海軍 巡洋艦Tier III Tenryu (天龍型軽巡洋艦)", inline=False)
     embed.add_field(name="$chikuma", value="大日本帝国海軍 巡洋艦Tier II chikuma (筑摩型防護巡洋艦)", inline=False)
     embed.add_field(name="$hashidate", value="大日本帝国海軍 巡洋艦Tier I Hashidate (橋立)", inline=False)
