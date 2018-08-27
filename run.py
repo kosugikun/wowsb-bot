@@ -62,8 +62,8 @@ async def chikuma(ctx):
 
     embed.set_image(url="https://mcpenano.net/WoWsB/Chikuma.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n数値\n**抗堪性**\n･防郭防御<数値>％･火災浸水耐性<数値>％･装甲<数値>％･対水雷防御<数値>％\n**装甲**\n ･装甲さ<数値>mm-<数値>mm･防郭 <数値>mm-<数値>mm･艦首/艦尾 <数値>mm･装甲甲板 <数値>mm")
-    embed.add_field(name="主砲射程", value="<数値>")
+    embed.add_field(name="生存性", value="**継戦能力**\n11990\n**抗堪性**\n･防郭防御7.50％･火災浸水耐性10.00％･装甲5.00％･対水雷防御4.50％\n**装甲**\n ･装甲さ<数値>mm-<数値>mm･防郭 <数値>mm-<数値>mm･艦首/艦尾 <数値>mm･装甲甲板 <数値>mm")
+    embed.add_field(name="主砲射程", value="8.22km")
     embed.add_field(name="機動性", value="<数値>")
     embed.add_field(name="隠蔽性", value="<数値>")
     embed.add_field(name="推力", value="<数値>")
