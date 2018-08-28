@@ -88,7 +88,7 @@ async def kuma(ctx):
 
     embed.add_field(name="生存性", value="**継戦能力**\n16530\n**抗堪性**\n･防郭防御7.50％･火災浸水耐性11.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n ･装甲さ<数値>mm-<数値>mm･防郭 <数値>mm-<数値>mm･艦首/艦尾 <数値>mm･装甲甲板 <数値>mm")
     embed.add_field(name="主砲射程", value="8.60km")
-    embed.add_field(name="機動性", value="**最大速力** 33.2ノット[kt]\m**転舵速度** 7.60度/秒\n**転舵所要時間** 5.7秒")
+    embed.add_field(name="機動性", value="**最大速力** 33.2ノット[kt]\n**転舵速度** 7.60度/秒\n**転舵所要時間** 5.7秒")
     embed.add_field(name="隠蔽性", value="6.80km")
     embed.add_field(name="推力", value="51000馬力")
 
@@ -187,7 +187,7 @@ async def japan(ctx):
 
     embed.add_field(name="!!zao", value="大日本帝国海軍 巡洋艦Tier X Zao (蔵王(マル六甲巡))", inline=False)
     embed.add_field(name="!!ibuki", value="大日本帝国海軍 巡洋艦Tier IX Ibuki (伊吹型重巡洋艦(改鈴谷型重巡洋艦))", inline=False)
-    embed.add_field(name="!!takao", value="大日本帝国海軍 巡洋艦Tier VIII Takao (妙高型重巡洋艦)", inline=False)
+    embed.add_field(name="!!takao", value="大日本帝国海軍 巡洋艦Tier VIII Takao (高雄型重巡洋艦)", inline=False)
     embed.add_field(name="!!myoko", value="大日本帝国海軍 巡洋艦Tier VII Myoko (妙高型重巡洋艦)", inline=False)
     embed.add_field(name="!!aoba", value="大日本帝国海軍 巡洋艦Tier VI Aoba (青葉型重巡洋艦)", inline=False)
     embed.add_field(name="!!furutaka", value="大日本帝国海軍 巡洋艦Tier V Furutaka (古鷹型重巡洋艦)", inline=False)
