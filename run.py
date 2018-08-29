@@ -183,12 +183,12 @@ async def kawachi(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://wikiwiki.jp/warships/?plugin=attach&refer=Kawachi&openfile=shot-17.05.24_14.40.29-0998.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n27233\n**抗堪性**\n ･防郭防御10.00%･火災浸水耐性11.00%･装甲11.20%･対水雷防御12.08%\n**装甲**\n ･装甲 6mm〜301mm")
+    embed.add_field(name="主砲射程", value="10.35km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力**  18.89ノット[kt]\n**転舵速度**  4.90度/秒\n**転舵所要時間**  12.30秒 ")
+    embed.add_field(name="隠蔽性", value=" 10.08km")
+    embed.add_field(name="推力", value=" 25000馬力")
 
     await ctx.send(embed=embed)
 
@@ -198,12 +198,12 @@ async def ishizuchi(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://mcpenano.net/WoWsB/Ishizuchi.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n29904\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲11.20％･対水雷防御10.50％\n**装甲**\n ･装甲13mm-203mm･防郭 19mm-203mm･艦首/艦尾 19mm-76mm･砲郭 13mm-152mm･装甲甲板 19mm-38mm")
+    embed.add_field(name="主砲射程", value="11.13km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力** 24.31ノット[kt]\n**転舵速度**  4.80度/秒\n**転舵所要時間**  13.80秒 ")
+    embed.add_field(name="隠蔽性", value=" 11.22km")
+    embed.add_field(name="推力", value=" 45000馬力")
 
     await ctx.send(embed=embed)
 
@@ -213,12 +213,12 @@ async def kongo(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://mcpenano.net/WoWsB/Kongo.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n37605\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性13.75％･装甲12.80％･対水雷防御14.49％\n**装甲**\n・装甲25-203mm・防郭 102-203mm・艦首/艦尾 25-76mm・砲郭 152mm・装甲甲板 38-120mm")
+    embed.add_field(name="主砲射程", value="12.21km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力**  29.31ノット[kt]\n**転舵速度** 5.60度/秒\n**転舵所要時間**  13.80秒 ")
+    embed.add_field(name="隠蔽性", value="11.34km")
+    embed.add_field(name="推力", value="64000馬力")
 
     await ctx.send(embed=embed)
 
@@ -228,12 +228,12 @@ async def fuso(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://mcpenano.net/WoWsB/Fuso.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n 41234\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性13.75％･装甲12.80％･対水雷防御15.25％\n**装甲**\n ･装甲 25mm-305mm･防郭 76mm-305mm･艦首/艦尾 25mm-102mm･砲郭 152mm-203mm･装甲甲板 35mm-99mm")
+    embed.add_field(name="主砲射程", value="12.88km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力** 23.90ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  14.70秒 ")
+    embed.add_field(name="隠蔽性", value=" 12.36km")
+    embed.add_field(name="推力", value="40000馬力")
 
     await ctx.send(embed=embed)
 
@@ -243,12 +243,13 @@ async def nagato(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://mcpenano.net/WoWsB/Nagato.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n43585\n**抗堪性**\n ･防郭防御12.50％･火災浸水耐性13.75％･装甲14.40％･対水雷防御17.25％")
+    embed.add_field(name="主砲射程", value="13.67km")
+    embed.add_field(name="副砲射程", value="6.08km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力**  24.87ノット[kt]\n**転舵速度**  22.28度/秒\n**転舵所要時間**  15.90秒 ")
+    embed.add_field(name="隠蔽性", value="11.76km")
+    embed.add_field(name="推力", value="80000馬力")
 
     await ctx.send(embed=embed)
 
@@ -258,12 +259,13 @@ async def amagi(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://mcpenano.net/WoWsB/Amagi.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n 49211\n**抗堪性**\n •防郭防御12.50％•火災浸水耐性12.50％•装甲13.60％•対水雷防御15.90％")
+    embed.add_field(name="主砲射程", value="14.42km")
+    embed.add_field(name="副砲射程", value="6.21km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力** 29.47ノット[kt]\n**転舵速度** 4.80度/秒\n**転舵所要時間**  15.27秒 ")
+    embed.add_field(name="隠蔽性", value="12.36km")
+    embed.add_field(name="推力", value="131200馬力")
 
     await ctx.send(embed=embed)
 
@@ -273,12 +275,13 @@ async def izumo(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://mcpenano.net/WoWsB/Izumo.jpg")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n 54979\n**抗堪性**\n ･防郭防御12.50％･火災浸水耐性12.50％･装甲14.40％･対水雷防御19.08％")
+    embed.add_field(name="主砲射程", value="15.17km")
+    embed.add_field(name="副砲射程", value="6.90km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力** 28.88ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  16.91秒 ")
+    embed.add_field(name="隠蔽性", value="12.42km")
+    embed.add_field(name="推力", value="153000馬力")
 
     await ctx.send(embed=embed)
 
@@ -288,12 +291,12 @@ async def yamato(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://wikiwiki.jp/warships/?plugin=attach&refer=Yamato&openfile=Yamato%28a%292.png")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n 62920\n**装甲**\n 18mm-410mm･防郭 80mm-410mm･艦首/艦尾 32mmm･砲郭 25mm･装甲甲板 18mm-200mm")
+    embed.add_field(name="主砲射程", value="16.41km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力** 26.67ノット[kt]\n**転舵速度** 4.6度/秒\n**転舵所要時間**  19.20秒 ")
+    embed.add_field(name="隠蔽性", value="12.60km")
+    embed.add_field(name="推力", value="153,553馬力")
 
     await ctx.send(embed=embed)
 
@@ -309,12 +312,12 @@ async def umikaze(ctx):
     embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
     embed.set_image(url="https://wikiwiki.jp/warships/?plugin=attach&refer=Umikaze&openfile=20180306_020153_0.png")
 
-    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
-    embed.add_field(name="主砲射程", value=" <数値> km")
+    embed.add_field(name="生存性", value="**継戦能力**\n 7992\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲3.20％･対水雷防御3.00％")
+    embed.add_field(name="主砲射程", value="	6.30km")
 
-    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
-    embed.add_field(name="隠蔽性", value=" <数値>km")
-    embed.add_field(name="推力", value=" <数値>馬力")
+    embed.add_field(name="機動性", value="**最大速力** 32.23ノット[kt]\n**転舵速度**  8.60度/秒\n**転舵所要時間**  3.30秒 ")
+    embed.add_field(name="隠蔽性", value="4.98km")
+    embed.add_field(name="推力", value="20500馬力")
 
     await ctx.send(embed=embed)
 
