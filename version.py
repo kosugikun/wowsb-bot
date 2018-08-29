@@ -3,3 +3,4 @@ import os.path
 MAIN_VERSION = '0.1.0'
 SUB_VERSION = '-alpha'
 VERSION = MAIN_VERSION + SUB_VERSION
+RELEASE = ''
