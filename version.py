@@ -1,5 +1,0 @@
-import os.path
-
-MAIN_VERSION = '0.1.0'
-SUB_VERSION = '-Beta Edition'
-VERSION = MAIN_VERSION + SUB_VERSION
