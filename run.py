@@ -1,3 +1,18 @@
+# World of Warships Blitz Discord Bot(WoWsb Bot)
+# Copyright (C) 2018  WoWsb Japan community
+#
+# WoWsb Bot is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# WoWsb Bot is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 import discord
 from discord.ext import commands
 import glob
@@ -20,6 +35,8 @@ async def on_ready():
     print('------')
     print('{0.user}にログインしました。'.format(client))
     print('WoWsb-Botバージョン'+ BOTVERSION+'は正常に起動しました。')
+    print('GNU General Public License v3.0')
+    print('Copyright (c) 2018 WoWsb Japan community')
 
 @bot.command()
 async def info(ctx):
@@ -29,7 +46,7 @@ async def info(ctx):
     embed.add_field(name="軍艦の情報入力", value="MT3\nura4316")
     embed.add_field(name="開発協力", value="WoWsb 日本コミュニティ")
     embed.add_field(name="Botバージョン", value=BOTVERSION)
-    embed.add_field(name="ライセンス", value="MIT License")
+    embed.add_field(name="ライセンス", value="GNU General Public License v3.0")
     embed.add_field(name="著作権", value="Copyright (c) 2018 WoWsb Japan community")
     await ctx.send(embed=embed)
 
