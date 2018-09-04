@@ -34,6 +34,8 @@ import re
 import aiohttp
 import discord
 
+import WoWsb
+
 from io import BytesIO, StringIO
 from functools import wraps
 from textwrap import dedent
@@ -51,10 +53,12 @@ bot = commands.Bot(command_prefix='!!')
 client = discord.Client()
 
 @bot.event
+@asyncio.coroutine
 async def on_ready():
     print(bot.user.name)
     print(bot.user.id)
     print('WoWsb-Botバージョン'+ BOTVERSION+'は正常に起動しました。')
+    await bot.change_presence(activity=discord.Game(name='!!help'.format(len(bot.guilds))))
     print('—————————————————————')
     print('GNU General Public License v3.0')
     print('Copyright (c) 2018 WoWsb Japan community')
@@ -62,10 +66,7 @@ async def on_ready():
     print(MEMBERS)
     print('開発協力')
     print('WoWsb 日本コミュニティ')
-print('—————————————————————')
-    channel = client.get_channel('420835825983422477')
-    voice = await connect(channel)
-    await client.change_presence(game=discord.Game(name="!!help", url="https://github.com/MusicBot-JP/wowsb-bot"))
+    print('—————————————————————')
 
 @bot.command()
 async def info(ctx):
@@ -865,13 +866,28 @@ async def help(ctx):
 
     await ctx.send(embed=embed)
 
+@bot.command(pass_context = True)
+async def 起床(ctx):
+    voice = await ctx.message.author.voice.channel.connect()
+    voice.play(discord.FFmpegPCMAudio('./voice.mp3'))
 
-@bot.command()
-async def test(channel, guild, voice_channel):
-    player = voice.create_ffmpeg_player('voice.mp3')
-    player.start()
+    counter = 0
+    duration = 10   # In seconds
+    while not counter >= duration:
+        await asyncio.sleep(1)
+        counter = counter + 1
+    await voice.disconnect()
 
-# channel = message.author.voice.voice_channel
-#    voice = await client.join_voice_channel(channel)
+@bot.command(pass_context = True)
+async def 合戦用意(ctx):
+    voice = await ctx.message.author.voice.channel.connect()
+    voice.play(discord.FFmpegPCMAudio('./voice2.mp3'))
+
+    counter = 0
+    duration = 10   # In seconds
+    while not counter >= duration:
+        await asyncio.sleep(1)
+        counter = counter + 1
+    await voice.disconnect()
 
 bot.run('')
