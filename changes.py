@@ -15,8 +15,4 @@
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 import os.path
 
-MAIN_VERSION = '0.1.1'
-SUB_VERSION = '-Beta Edition'
-VERSION = MAIN_VERSION + SUB_VERSION
-
-MEMBERS = 'Kosugi_kun\nMT3\nura4316'
+changes = "このWoWsb Botでは、大日本帝国ツリーのミスやバグの修正、ライセンスの変更などが含まれています。\n•日本ツリーで一部の軍艦画像が表示されなかったバグを修正しました！\n•一部のコマンドを実行するとエラーが吐き出してくる不具合を成敗しました。"

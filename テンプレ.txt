@@ -1,0 +1,134 @@
+@bot.command()
+async def umikaze(ctx):
+    embed = discord.Embed(title="駆逐艦Tier II Umikaze", description="海風型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://wikiwiki.jp/warships/?plugin=attach&refer=Umikaze&openfile=20180306_020153_0.png")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def wakatake(ctx):
+    embed = discord.Embed(title="駆逐艦Tier III Wakatake", description="若竹型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Wakatake.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def isokaze(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier IV Isokaze", description="磯風型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Isokaze.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def mutsuki(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier V Mutsuki", description="睦月型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Mutsuki.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def fubuki(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier VI Fubuki", description="吹雪型駆逐艦(特I型駆逐艦)", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Fubuki.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def akatsuki(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier VII Akatsuki", description="暁型駆逐艦(特III型駆逐艦)1番艦暁", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://wikiwiki.jp/warships/?plugin=attach&refer= https://mcpenano.net/WoWsB/Akatsuki.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def kagero(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier VIII Kagero", description="陽炎型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Kagero.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def yugumo(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier IX Yugumo", description="夕雲型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Yugumo.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def shimakaze(ctx):
+    embed = discord.Embed(title="駆逐艦 Tier X Shimakaze", description="島風型駆逐艦", color=0xeee657)
+    embed.set_author(name="大日本帝国海軍", icon_url="https://mcpenano.net/WoWsB/jp.png")
+    embed.set_image(url="https://mcpenano.net/WoWsB/Shimakaze.jpg")
+
+    embed.add_field(name="生存性", value="**継戦能力**\n情報\n**抗堪性**\n･防郭防御 <数値>％･火災浸水耐性 <数値>％･装甲 <数値>％･対水雷防御 <数値>％\n**装甲**\n ･装甲 <数値> mm- <数値> mm･防郭  <数値> mm- <数値> mm･艦首/艦尾  <数値> mm･装甲甲板  <数値> mm")
+    embed.add_field(name="主砲射程", value=" <数値> km")
+
+    embed.add_field(name="機動性", value="**最大速力**  <数値>ノット[kt]\n**転舵速度**  <数値>度/秒\n**転舵所要時間**  <数値>秒 ")
+    embed.add_field(name="隠蔽性", value=" <数値>km")
+    embed.add_field(name="推力", value=" <数値>馬力")
+
+    await ctx.send(embed=embed)

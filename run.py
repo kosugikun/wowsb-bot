@@ -13,30 +13,59 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
-import discord
 from discord.ext import commands
-import glob
-import sys
-import os.path
 import importlib
-import re
 import asyncio
 
+import os
+import sys
+import time
+import shlex
+import shutil
+import random
+import inspect
+import logging
+import asyncio
+import pathlib
+import traceback
+import math
+import re
+
+import aiohttp
+import discord
+
+from io import BytesIO, StringIO
+from functools import wraps
+from textwrap import dedent
+from datetime import timedelta
+from collections import defaultdict
+
+from discord.enums import ChannelType
+
 from version import VERSION as BOTVERSION
+
+from version import MEMBERS
+from changes import changes
 
 bot = commands.Bot(command_prefix='!!')
 client = discord.Client()
 
 @bot.event
 async def on_ready():
-    print('ロード中')
     print(bot.user.name)
     print(bot.user.id)
-    print('------')
-    print('{0.user}にログインしました。'.format(client))
     print('WoWsb-Botバージョン'+ BOTVERSION+'は正常に起動しました。')
+    print('—————————————————————')
     print('GNU General Public License v3.0')
     print('Copyright (c) 2018 WoWsb Japan community')
+    print('開発メンバー')
+    print(MEMBERS)
+    print('開発協力')
+    print('WoWsb 日本コミュニティ')
+print('—————————————————————')
+    channel = client.get_channel('420835825983422477')
+    voice = await connect(channel)
+    await client.change_presence(game=discord.Game(name="!!help", url="https://github.com/MusicBot-JP/wowsb-bot"))
 
 @bot.command()
 async def info(ctx):
@@ -48,6 +77,13 @@ async def info(ctx):
     embed.add_field(name="Botバージョン", value=BOTVERSION)
     embed.add_field(name="ライセンス", value="GNU General Public License v3.0")
     embed.add_field(name="著作権", value="Copyright (c) 2018 WoWsb Japan community")
+    await ctx.send(embed=embed)
+
+@bot.command()
+async def uplog(ctx):
+    embed = discord.Embed(title="WoWsb Bot", description="Version"+BOTVERSION+"", color=0xeee657)
+
+    embed.add_field(name="変更ログ", value=changes)
     await ctx.send(embed=embed)
 
 #日本巡洋艦
@@ -829,4 +865,13 @@ async def help(ctx):
 
     await ctx.send(embed=embed)
 
-bot.run('Bot-token')
+
+@bot.command()
+async def test(channel, guild, voice_channel):
+    player = voice.create_ffmpeg_player('voice.mp3')
+    player.start()
+
+# channel = message.author.voice.voice_channel
+#    voice = await client.join_voice_channel(channel)
+
+bot.run('NDgzMTE2NzU3MDM3MzUwOTEy.DmVBtw.7Dh32aJ6otGuxB543CviSzU3W28')
