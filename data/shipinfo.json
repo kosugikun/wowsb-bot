@@ -1,0 +1,46 @@
+{
+    "Japan":{
+        "Flag": "https://mcpenano.net/WoWsB/jp.png",
+        "Name": "大日本帝国海軍",
+        "Hashidate":{
+            "Title": "巡洋艦Tier I Hashidate",
+            "Desc": "橋立",
+            "Image": "https://mcpenano.net/WoWsB/Hashidate.jpg",
+            "Viability": "**継戦能力**\n9858\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n ･装甲6mm-30mm･防郭 6mm-30mm･艦首/艦尾 6mm･装甲甲板 10mm",
+            "MainGunRange": "7.80km",
+            "Mobility": "**最大速力** 18.76ノット[kt]\n**転舵速度** 8.28度/秒\n**転舵所要時間** 3.90秒",
+            "Concealment": "8.40km",
+            "Thrust": "4600馬力"
+        },
+        "Chikuma":{
+            "Title": "巡洋艦Tier II Chikuma",
+            "Desc": "筑摩型防護巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Chikuma.jpg",
+            "Viability": "**継戦能力**\n11990\n**抗堪性**\n･防郭防御7.50％･火災浸水耐性10.00％･装甲5.00％･対水雷防御4.50％",
+            "MainGunRange": "8.22km",
+            "Mobility": "**最大速力** 24.73ノット[kt]\n**転舵速度** 6.20度/秒\n**転舵所要時間** 15.10秒",
+            "Concealment": "6.72km",
+            "Thrust": "22500馬力"
+        },
+        "Tenryu":{
+            "Title": "巡洋艦Tier III Tenryu",
+            "Desc": "天龍型軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Tenryu.jpg",
+            "Viability": "**継戦能力**\n13952\n**抗堪性**\n･防郭防御7.50％･火災浸水耐性10.00％",
+            "MainGunRange": "8.46km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間** 5.40秒",
+            "Concealment": "6.42km",
+            "Thrust": "51000馬力"
+        },
+        "Kuma":{
+            "Title": "巡洋艦Tier IV Kuma",
+            "Desc": "球磨型軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/kuma.png",
+            "Viability": "**継戦能力**\n16530\n**抗堪性**\n･防郭防御7.50％･火災浸水耐性11.00％･装甲5.60％･対水雷防御4.50％",
+            "MainGunRange": "8.60km",
+            "Mobility": "**最大速力** 33.2ノット[kt]\n**転舵速度** 7.60度/秒\n**転舵所要時間** 5.7秒",
+            "Concealment": "6.80km",
+            "Thrust": "51000馬力"
+        }
+    }
+}
