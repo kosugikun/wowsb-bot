@@ -874,4 +874,4 @@ async def test(channel, guild, voice_channel):
 # channel = message.author.voice.voice_channel
 #    voice = await client.join_voice_channel(channel)
 
-bot.run('NDgzMTE2NzU3MDM3MzUwOTEy.DmVBtw.7Dh32aJ6otGuxB543CviSzU3W28')
+bot.run('')
