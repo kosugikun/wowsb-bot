@@ -41,6 +41,16 @@
             "Mobility": "**最大速力** 33.2ノット[kt]\n**転舵速度** 7.60度/秒\n**転舵所要時間** 5.7秒",
             "Concealment": "6.80km",
             "Thrust": "51000馬力"
+        },
+        "Furutaka":{
+            "Title": "巡洋艦Tier V Furutaka",
+            "Desc": "古鷹型重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/furutaka.jpg",
+            "Viability": "**継戦能力**\n21546\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性11.00％･装甲8.00％･対水雷防御6.90％",
+            "MainGunRange": "10.1km",
+            "Mobility": "**最大速力** 34.2ノット[kt]\n**転舵速度** 6.60度/秒\n**転舵所要時間** 5.7秒",
+            "Concealment": "7.50km",
+            "Thrust": "113340馬力"
         }
     }
 }
