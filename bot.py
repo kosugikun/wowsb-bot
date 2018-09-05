@@ -17,7 +17,6 @@ class WoWsbBot(Bot):
         self._members = version.MEMBERS
 
         super().__init__('!!', formatter, description, pm_help, **options)
-
         for extension in _initial_extensions:
             try:
                 self.load_extension(extension)
@@ -28,7 +27,7 @@ class WoWsbBot(Bot):
         print(self.user.name)
         print(self.user.id)
         print(f'WoWsb-Botバージョン{self._version}は正常に起動しました。')
-        await self.change_presence(activity=discord.Game(name='!!help | {} servers'.format(len(self.guilds))))
+        await self.change_presence(activity=discord.Game(name='!!com | {} servers'.format(len(self.guilds))))
         print('—————————————————————')
         print('GNU General Public License v3.0')
         print('Copyright (c) 2018 WoWsb Japan community')
@@ -43,5 +42,7 @@ class WoWsbBot(Bot):
 
 
 if __name__ == '__main__':
+
     bot = WoWsbBot()
-    bot.run('')
+    bot.remove_command('help')
+    bot.run('NDgzMTE2NzU3MDM3MzUwOTEy.DmVBtw.7Dh32aJ6otGuxB543CviSzU3W28')

@@ -19,4 +19,4 @@ MAIN_VERSION = '0.1.1'
 SUB_VERSION = '-Beta Edition'
 VERSION = MAIN_VERSION + SUB_VERSION
 
-MEMBERS = 'Kosugi_kun\nMT3\nura4316'
+MEMBERS = 'Kosugi_kun\nMT3\nura4316\nEpisword'

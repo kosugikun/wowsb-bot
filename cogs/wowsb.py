@@ -1,4 +1,5 @@
 import discord
+import asyncio
 import json
 
 from discord.ext import commands
@@ -9,14 +10,15 @@ class WoWsb():
         self.bot = bot
         self.data = None
 
-        with(open(self.bot.get_data('shipinfo.json'), encoding='utf-8')) as f:
+        with(open(self.bot.get_data('shipdata.json'), encoding='utf-8')) as f:
             self.data = json.load(f)
 
     @commands.command(pass_context=True)
-    async def botinfo(self, ctx):
+    async def info(self, ctx):
         embed = discord.Embed(title="WoWsb Bot", description="WoWsb-Bot開発メンバー", color=0xeee657)
 
         embed.add_field(name="開発リーダー", value="Kosugi_kun")
+        embed.add_field(name="プログラマー", value="Episword")
         embed.add_field(name="軍艦の情報入力", value="MT3\nura4316")
         embed.add_field(name="開発協力", value="WoWsb 日本コミュニティ")
         embed.add_field(name="Botバージョン", value=self.bot._version)
@@ -25,7 +27,7 @@ class WoWsb():
         await ctx.send(embed=embed)
 
     @commands.command(pass_context=True)
-    async def shipinfo(self, ctx, shipname: str):
+    async def wows(self, ctx, shipname: str):
         for k in self.data.keys():
             if shipname in ('Flag', 'Name'):
                 return
@@ -34,10 +36,10 @@ class WoWsb():
                 await ctx.send(embed=embed)
                 return
 
-        await ctx.send('この艦船の情報は見つかりませんでした。')
+        await ctx.send('この軍艦の情報は見つかりませんでした。')
 
     @commands.command(pass_context=True)
-    async def shiplist(self, ctx, country: str):
+    async def wowslist(self, ctx, country: str):
         try:
             data = self.data[country]
         except KeyError:
@@ -70,6 +72,40 @@ class WoWsb():
 
         return embed
 
+   
+
+    @commands.command(pass_context = True)
+    async def 起床(self, ctx):
+        voice = await ctx.message.author.voice.channel.connect()
+        voice.play(discord.FFmpegPCMAudio('./voice.mp3'))
+
+        counter = 0
+        duration = 10   # In seconds
+        while not counter >= duration:
+            await asyncio.sleep(1)
+            counter = counter + 1
+        await voice.disconnect()
+
+    @commands.command(pass_context = True)
+    async def 合戦用意(self, ctx):
+        voice = await ctx.message.author.voice.channel.connect()
+        voice.play(discord.FFmpegPCMAudio('./voice2.mp3'))
+
+        counter = 0
+        duration = 10   # In seconds
+        while not counter >= duration:
+            await asyncio.sleep(1)
+            counter = counter + 1
+        await voice.disconnect()
+    @commands.command(pass_context=True)
+    async def com(self, ctx):
+        embed = discord.Embed(title="WoWsb Bot", description="ヘルプ", color=0xeee657)
+
+        embed.add_field(name="!!wowslist <国の名前>", value="軍艦のリストを表示します。\n日本:japan")
+        embed.add_field(name="!!wows <軍艦の名前>", value="軍艦のステータスを表示します。\n例: !!shipinfo Yamato")
+        embed.add_field(name="!!info", value="WoWsb Botの情報を表示します。")
+        await ctx.send(embed=embed)
+   
     
 def setup(bot):
     bot.add_cog(WoWsb(bot))
