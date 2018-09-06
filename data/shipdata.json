@@ -55,7 +55,7 @@
         "Aoba":{
             "Title": "巡洋艦Tier VI Aoba",
             "Desc": "青葉型重巡洋艦",
-            "Images": "https://mcpenano.net/WoWsB/aoba.jpg",
+            "Image": "https://mcpenano.net/WoWsB/aoba.jpg",
             "Viability": "**継戦能力**\n23868\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性11.00％･装甲8.80％･対水雷防御7.50％",
             "MainGunRange": "10.58km",
             "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 7.10度/秒\n**転舵所要時間** 6.00秒 ",
@@ -65,7 +65,7 @@
         "Myoko":{
             "Title": "巡洋艦Tier VII Myoko",
             "Desc": "妙高型重巡洋艦",
-            "Images": "https://mcpenano.net/WoWsB/Myoko.jpg",
+            "Image": "https://mcpenano.net/WoWsB/Myoko.jpg",
             "Viability": "**継戦能力**\n24500\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御7.50％",
             "MainGunRange": "10.38km",
             "Mobility": "**最大速力** 34.59ノット[kt]\n**転舵速度** 6.40度/秒\n**転舵所要時間** 7.80秒",
@@ -75,7 +75,7 @@
         "Takao":{
             "Title": "巡洋艦Tier VIII Takao",
             "Desc": "高雄型重巡洋艦",
-            "Images": "https://mcpenano.net/WoWsB/Takao.jpg",
+            "Image": "https://mcpenano.net/WoWsB/Takao.jpg",
             "Viability": "**継戦能力**\n27400\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御7.50％",
             "MainGunRange": "10.08km",
             "Mobility": "**最大速力** 34.59ノット[kt]\n**転舵速度** 6.30度/秒\n**転舵所要時間** 7.80秒",
@@ -85,7 +85,7 @@
         "Ibuki":{
             "Title": "巡洋艦Tier IX Ibuki",
             "Desc": "伊吹型重巡洋艦(改鈴谷型重巡洋艦)",
-            "Images": "https://mcpenano.net/WoWsB/Ibuki.jpg",
+            "Image": "https://mcpenano.net/WoWsB/Ibuki.jpg",
             "Viability": "**継戦能力**\n28600\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御9.00％",
             "MainGunRange": "10.08km",
             "Mobility": "**最大速力** 34.59ノット[kt]\n**転舵速度** 6.50度/秒\n**転舵所要時間** 8.10秒",
@@ -95,7 +95,7 @@
         "Zao":{
             "Title": "巡洋艦Tier X Zao",
             "Desc": "蔵王(マル六甲巡)",
-            "Images": "https://mcpenano.net/WoWsB/Zao.jpg",
+            "Image": "https://mcpenano.net/WoWsB/Zao.jpg",
             "Viability": "**継戦能力**\n36179\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性12.50％･装甲9.60％･対水雷防御10.50％",
             "MainGunRange": "11.72km",
             "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 6.03度/秒\n**転舵所要時間** 6.74秒",
