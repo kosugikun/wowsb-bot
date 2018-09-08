@@ -182,5 +182,129 @@
             "Concealment": "12.60km",
             "Thrust": "153,553馬力"
         }
+    },
+    "Japan2":{
+        "Flag": "https://mcpenano.net/WoWsB/jp.png",
+        "Name": "大日本帝国海軍",
+        "Umikaze":{
+            "Title": "駆逐艦Tier II Umikaze",
+            "Desc": "海風型駆逐艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=attach&refer=Umikaze&openfile=20180306_020153_0.png",
+            "Viability": "**継戦能力**\n 7992\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲3.20％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度**  8.60度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "4.98km",
+            "Thrust": "20500馬力"
+        },
+        "Wakatake":{
+            "Title": "駆逐艦Tier III Wakatake",
+            "Desc": "若竹型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Wakatake.jpg",
+            "Viability": "**継戦能力**\n9156\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲3.20％･対水雷防御3.00",
+            "MainGunRange": "6.58km",
+            "Mobility": "**最大速力** 35.01ノット[kt]\n**転舵速度** 10.70度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.22km",
+            "Thrust": "21500馬力"
+        },
+        "Isokaze":{
+            "Title": "駆逐艦 Tier IV Isokaze",
+            "Desc": "磯風型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Isokaze.jpg",
+            "Viability": "**継戦能力**\n 8900\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.00％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 8.90度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.10km",
+            "Thrust": "27000馬力"
+        },
+        "Mutsuki":{
+            "Title": "駆逐艦 Tier V Mutsuki",
+            "Desc": "睦月型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Mutsuki.jpg",
+            "Viability": "**継戦能力**\n 9700\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.00％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 36.12ノット[kt]\n**転舵速度** 9.20度/秒\n**転舵所要時間**  2.70秒",
+            "Concealment": "5.40km",
+            "Thrust": "38500馬力"
+        },
+        "Fubuki":{
+            "Title": "駆逐艦 Tier VI Fubuki",
+            "Desc": "吹雪型駆逐艦(特I型駆逐艦)",
+            "Image": "https://mcpenano.net/WoWsB/Fubuki.jpg",
+            "Viability": "**継戦能力**\n11000\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "6.90km",
+            "Mobility": "**最大速力** 35.01ノット[kt]\n**転舵速度** 7.90度/秒\n**転舵所要時間**  3.90秒",
+            "Concealment": "6.36km",
+            "Thrust": "50000馬力"
+        },
+        "Akatsuki":{
+            "Title": "駆逐艦 Tier VII Akatsuki",
+            "Desc": "暁型駆逐艦(特III型駆逐艦)1番艦暁",
+            "Image": "https://mcpenano.net/WoWsB/Akatsuki.jpg",
+            "Viability": "**継戦能力**\n 11800\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "6.90km",
+            "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度** 8.70度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "6.24km",
+            "Thrust": "50000馬力"
+        },
+        "Kagero":{
+            "Title": "駆逐艦 Tier VIII Kagero",
+            "Desc": "陽炎型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Kagero.jpg",
+            "Viability": "**継戦能力**\n13500\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間**  3.00秒",
+            "Concealment": "6.00km",
+            "Thrust": "52000馬力"
+        },
+        "Shimakaze":{
+            "Title": "駆逐艦 Tier X Shimakaze",
+            "Desc": "島風型駆逐艦"",
+            "Image": "https://mcpenano.net/WoWsB/Shimakaze.jpg",
+            "Viability": "**継戦能力**\n 15200\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 39.46ノット[kt]\n**転舵速度**  8.50度/秒\n**転舵所要時間**  3.60秒",
+            "Concealment": "6.48km",
+            "Thrust": "80000馬力"
+        },
+        "Minekaze":{
+            "Title": "駆逐艦 Tier V Minekaze",
+            "Desc": "峯風型駆逐艦"",
+            "Image": "https://mcpenano.net/WoWsB/Minekaze.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Hatsuharu":{
+            "Title": "駆逐艦 Tier VI Hatsuharu",
+            "Desc": "初春型駆逐艦"",
+            "Image": "https://mcpenano.net/WoWsB/Hatsuharu.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Shiratsuyu":{
+            "Title": "駆逐艦 Tier VII Shiratsuyu",
+            "Desc": "白露型駆逐艦"",
+            "Image": "https://mcpenano.net/WoWsB/Shiratsuyu.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Akizuki":{
+            "Title": "駆逐艦 Tier VIII Akizuki",
+            "Desc": "秋月型駆逐艦"",
+            "Image": "https://mcpenano.net/WoWsB/Akizuki.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        }
     }
 }
