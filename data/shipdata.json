@@ -101,6 +101,86 @@
             "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 6.03度/秒\n**転舵所要時間** 6.74秒",
             "Concealment": "8.47km",
             "Thrust": "152000馬力"
+        },
+        "Kawachi":{
+            "Title": "戦艦Tier III Kawachi",
+            "Desc": "河内型戦艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=attach&refer=Kawachi&openfile=shot-17.05.24_14.40.29-0998.jpg",
+            "Viability": "**継戦能力**\n27233\n**抗堪性**\n ･防郭防御10.00%･火災浸水耐性11.00%･装甲11.20%･対水雷防御12.08%\n**装甲**\n ･装甲 6mm〜301mm",
+            "MainGunRange": "10.35km",
+            "Mobility": "**最大速力**  18.89ノット[kt]\n**転舵速度**  4.90度/秒\n**転舵所要時間**  12.30秒",
+            "Concealment": "10.08km",
+            "Thrust": "25000馬力"
+        },
+        "Ishizuchi":{
+            "Title": "戦艦Tier IV Ishizuchi",
+            "Desc": "石鎚型巡洋戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Ishizuchi.jpg",
+            "Viability": "**継戦能力**\n29904\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲11.20％･対水雷防御10.50％\n**装甲**\n ･装甲13mm-203mm･防郭 19mm-203mm･艦首/艦尾 19mm-76mm･砲郭 13mm-152mm･装甲甲板 19mm-38mm",
+            "MainGunRange": "11.13km",
+            "Mobility": "**最大速力** 24.31ノット[kt]\n**転舵速度**  4.80度/秒\n**転舵所要時間**  13.80秒",
+            "Concealment": "11.22km",
+            "Thrust": "45000馬力"
+        },
+        "Kongo":{
+            "Title": "戦艦Tier V Kongo",
+            "Desc": "金剛型巡洋戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Kongo.jpg",
+            "Viability": "**継戦能力**\n37605\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性13.75％･装甲12.80％･対水雷防御14.49％\n**装甲**\n・装甲25-203mm・防郭 102-203mm・艦首/艦尾 25-76mm・砲郭 152mm・装甲甲板 38-120mm",
+            "MainGunRange": "12.21km",
+            "Mobility": "**最大速力**  29.31ノット[kt]\n**転舵速度** 5.60度/秒\n**転舵所要時間**  13.80秒",
+            "Concealment": "11.34km",
+            "Thrust": "64000馬力"
+        },
+        "Fuso":{
+            "Title": "戦艦Tier VI Fuso",
+            "Desc": "扶桑型戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Fuso.jpg",
+            "Viability": "**継戦能力**\n 41234\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性13.75％･装甲12.80％･対水雷防御15.25％\n**装甲**\n ･装甲 25mm-305mm･防郭 76mm-305mm･艦首/艦尾 25mm-102mm･砲郭 152mm-203mm･装甲甲板 35mm-99mm",
+            "MainGunRange": "12.88km",
+            "Mobility": "**最大速力** 23.90ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  14.70秒",
+            "Concealment": "12.36km",
+            "Thrust": "40000馬力"
+        },
+        "Nagato":{
+            "Title": "戦艦Tier VII Nagato",
+            "Desc": "長門型戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Nagato.jpg",
+            "Viability": "**継戦能力**\n43585\n**抗堪性**\n ･防郭防御12.50％･火災浸水耐性13.75％･装甲14.40％･対水雷防御17.25％",
+            "MainGunRange": "13.67km\n副砲射程 6.08km",
+            "Mobility": "**最大速力**  24.87ノット[kt]\n**転舵速度**  22.28度/秒\n**転舵所要時間**  15.90秒",
+            "Concealment": "11.76km",
+            "Thrust": "80000馬力"
+        },
+        "Amagi":{
+            "Title": "戦艦Tier VIII Amagi",
+            "Desc": "天城型巡洋戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Amagi.jpg",
+            "Viability": "**継戦能力**\n 49211\n**抗堪性**\n •防郭防御12.50％•火災浸水耐性12.50％•装甲13.60％•対水雷防御15.90％",
+            "MainGunRange": "14.42km\n副砲射程 6.21km",
+            "Mobility": "**最大速力** 29.47ノット[kt]\n**転舵速度** 4.80度/秒\n**転舵所要時間**  15.27秒",
+            "Concealment": "12.36km",
+            "Thrust": "131200馬力"
+        },
+        "Izumo":{
+            "Title": "戦艦Tier IX Izumo",
+            "Desc": "出雲型戦艦(大和型戦艦計画案A-140J2)",
+            "Image": "https://mcpenano.net/WoWsB/Izumo.jpg",
+            "Viability": "**継戦能力**\n 54979\n**抗堪性**\n ･防郭防御12.50％･火災浸水耐性12.50％･装甲14.40％･対水雷防御19.08％",
+            "MainGunRange": "15.17km\n副砲射程 6.90km",
+            "Mobility": "**最大速力** 28.88ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  16.91秒",
+            "Concealment": "12.42km",
+            "Thrust": "153000馬力"
+        },
+        "Yamato":{
+            "Title": "戦艦Tier X Yamato",
+            "Desc": "大和型戦艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=attach&refer=Yamato&openfile=Yamato%28a%292.png",
+            "Viability": "**継戦能力**\n 62920\n**装甲**\n 18mm-410mm･防郭 80mm-410mm･艦首/艦尾 32mmm･砲郭 25mm･装甲甲板 18mm-200mm",
+            "MainGunRange": "16.41km",
+            "Mobility": "**最大速力** 26.67ノット[kt]\n**転舵速度** 4.6度/秒\n**転舵所要時間**  19.20秒",
+            "Concealment": "12.60km",
+            "Thrust": "153,553馬力"
         }
     }
 }
