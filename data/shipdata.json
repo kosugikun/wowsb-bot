@@ -380,11 +380,41 @@
             "Title": "戦艦Tier II Mikasa",
             "Desc": "敷島型戦艦 四番艦 三笠",
             "Image": "https://mcpenano.net/WoWsB/Mikasa.jpg",
-            "Viability": "**最大速力** 18.67ノット[kt]\n**転舵速度** 5.10度/秒\n**転舵所要時間**  10.20秒",
+            "Viability": "**継戦能力**\n 24939\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲8.00％･対水雷防御9.54％\n**装甲**\n ･装甲13mm-229mm･防郭 25mm-229mm･艦首/艦尾 16mm-127mm･砲郭 13mm-152mm･装甲甲板 32mm-51mm",
             "MainGunRange": "10.11km",
-            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 3.80度/秒\n**転舵所要時間**  16.20秒 ",
-            "Concealment": "9.49km",
-            "Thrust": "153000馬力"
+            "Mobility": "**最大速力** 18.67ノット[kt]\n**転舵速度** 5.10度/秒\n**転舵所要時間**  10.20秒 ",
+            "Concealment": "9.54km",
+            "Thrust": "15000馬力"
+        },
+        "Katori":{
+            "Title": "巡洋艦 Tier III Katori",
+            "Desc": "香取型練習巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Katori.jpg",
+            "Viability": "**継戦能力**\n 15151\n**抗堪性**\n ･防郭防御7.50％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n •装甲6-51mm•防郭 10-6mm•艦首•艦尾 6mm•砲郭 6mm•装甲甲板 6-51mm",
+            "MainGunRange": "8.53km",
+            "Mobility": "**最大速力** 19.31ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間**  5.70秒",
+            "Concealment": "6.30km",
+            "Thrust": "8000馬力"
+        },
+        "Yubari":{
+            "Title": "巡洋艦 Tier IV Yubari",
+            "Desc": "夕張型軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Yubari.jpg",
+            "Viability": "**継戦能力**\n 15904\n**抗堪性**\n ･防郭防御7.50％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n 装甲10mm-57mm･防郭 25mm-57mm･艦首/艦尾 10mm･装甲甲板 25mm",
+            "MainGunRange": "8.65km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 8.60度/秒\n**転舵所要時間**  4.20秒",
+            "Concealment": "6.24km",
+            "Thrust": "57900馬力"
+        },
+        "Kamikaze":{
+            "Title": "駆逐艦 Tier V Kamikaze",
+            "Desc": "神風型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Kamikaze.jpg",
+            "Viability": "**継戦能力**\n 10304\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.00％･対水雷防御3.00％\n**装甲**\n ･装甲10mm-14mm･艦首/艦尾 10mm･砲郭 10mm-14mm･装甲甲板 14mm",
+            "MainGunRange": "6.68km",
+            "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度** 9.60度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.70km",
+            "Thrust": "38500馬力"
         }
     }
 }
