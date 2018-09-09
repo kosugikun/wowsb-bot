@@ -1,7 +1,7 @@
 {
     "Japan":{
         "Flag": "https://mcpenano.net/WoWsB/jp.png",
-        "Name": "大日本帝国海軍",
+        "Name": "大日本帝国海軍(巡洋艦、戦艦)",
         "Hashidate":{
             "Title": "巡洋艦Tier I Hashidate",
             "Desc": "橋立",
@@ -41,6 +41,380 @@
             "Mobility": "**最大速力** 33.2ノット[kt]\n**転舵速度** 7.60度/秒\n**転舵所要時間** 5.7秒",
             "Concealment": "6.80km",
             "Thrust": "51000馬力"
+        },
+        "Furutaka":{
+            "Title": "巡洋艦Tier V Furutaka",
+            "Desc": "古鷹型重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/furutaka.jpg",
+            "Viability": "**継戦能力**\n21546\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性11.00％･装甲8.00％･対水雷防御6.90％",
+            "MainGunRange": "10.1km",
+            "Mobility": "**最大速力** 34.2ノット[kt]\n**転舵速度** 6.60度/秒\n**転舵所要時間** 5.7秒",
+            "Concealment": "7.50km",
+            "Thrust": "113340馬力"
+        },
+        "Aoba":{
+            "Title": "巡洋艦Tier VI Aoba",
+            "Desc": "青葉型重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/aoba.jpg",
+            "Viability": "**継戦能力**\n23868\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性11.00％･装甲8.80％･対水雷防御7.50％",
+            "MainGunRange": "10.58km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 7.10度/秒\n**転舵所要時間** 6.00秒 ",
+            "Concealment": "7.68km",
+            "Thrust": "102000馬力"
+        },
+        "Myoko":{
+            "Title": "巡洋艦Tier VII Myoko",
+            "Desc": "妙高型重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Myoko.jpg",
+            "Viability": "**継戦能力**\n24500\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御7.50％",
+            "MainGunRange": "10.38km",
+            "Mobility": "**最大速力** 34.59ノット[kt]\n**転舵速度** 6.40度/秒\n**転舵所要時間** 7.80秒",
+            "Concealment": "8.10km",
+            "Thrust": "130000馬力"
+        },
+        "Takao":{
+            "Title": "巡洋艦Tier VIII Takao",
+            "Desc": "高雄型重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Takao.jpg",
+            "Viability": "**継戦能力**\n27400\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御7.50％",
+            "MainGunRange": "10.08km",
+            "Mobility": "**最大速力** 34.59ノット[kt]\n**転舵速度** 6.30度/秒\n**転舵所要時間** 7.80秒",
+            "Concealment": "8.28km",
+            "Thrust": "133000馬力"
+        },
+        "Ibuki":{
+            "Title": "巡洋艦Tier IX Ibuki",
+            "Desc": "伊吹型重巡洋艦(改鈴谷型重巡洋艦)",
+            "Image": "https://mcpenano.net/WoWsB/Ibuki.jpg",
+            "Viability": "**継戦能力**\n28600\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御9.00％",
+            "MainGunRange": "10.08km",
+            "Mobility": "**最大速力** 34.59ノット[kt]\n**転舵速度** 6.50度/秒\n**転舵所要時間** 8.10秒",
+            "Concealment": "8.70km",
+            "Thrust": "154000馬力"
+        },
+        "Zao":{
+            "Title": "巡洋艦Tier X Zao",
+            "Desc": "蔵王(マル六甲巡)",
+            "Image": "https://mcpenano.net/WoWsB/Zao.jpg",
+            "Viability": "**継戦能力**\n36179\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性12.50％･装甲9.60％･対水雷防御10.50％",
+            "MainGunRange": "11.72km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 6.03度/秒\n**転舵所要時間** 6.74秒",
+            "Concealment": "8.47km",
+            "Thrust": "152000馬力"
+        },
+        "Kawachi":{
+            "Title": "戦艦Tier III Kawachi",
+            "Desc": "河内型戦艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=attach&refer=Kawachi&openfile=shot-17.05.24_14.40.29-0998.jpg",
+            "Viability": "**継戦能力**\n27233\n**抗堪性**\n ･防郭防御10.00%･火災浸水耐性11.00%･装甲11.20%･対水雷防御12.08%\n**装甲**\n ･装甲 6mm〜301mm",
+            "MainGunRange": "10.35km",
+            "Mobility": "**最大速力**  18.89ノット[kt]\n**転舵速度**  4.90度/秒\n**転舵所要時間**  12.30秒",
+            "Concealment": "10.08km",
+            "Thrust": "25000馬力"
+        },
+        "Ishizuchi":{
+            "Title": "戦艦Tier IV Ishizuchi",
+            "Desc": "石鎚型巡洋戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Ishizuchi.jpg",
+            "Viability": "**継戦能力**\n29904\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲11.20％･対水雷防御10.50％\n**装甲**\n ･装甲13mm-203mm･防郭 19mm-203mm･艦首/艦尾 19mm-76mm･砲郭 13mm-152mm･装甲甲板 19mm-38mm",
+            "MainGunRange": "11.13km",
+            "Mobility": "**最大速力** 24.31ノット[kt]\n**転舵速度**  4.80度/秒\n**転舵所要時間**  13.80秒",
+            "Concealment": "11.22km",
+            "Thrust": "45000馬力"
+        },
+        "Kongo":{
+            "Title": "戦艦Tier V Kongo",
+            "Desc": "金剛型巡洋戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Kongo.jpg",
+            "Viability": "**継戦能力**\n37605\n**抗堪性**\n･防郭防御10.00％･火災浸水耐性13.75％･装甲12.80％･対水雷防御14.49％\n**装甲**\n・装甲25-203mm・防郭 102-203mm・艦首/艦尾 25-76mm・砲郭 152mm・装甲甲板 38-120mm",
+            "MainGunRange": "12.21km",
+            "Mobility": "**最大速力**  29.31ノット[kt]\n**転舵速度** 5.60度/秒\n**転舵所要時間**  13.80秒",
+            "Concealment": "11.34km",
+            "Thrust": "64000馬力"
+        },
+        "Fuso":{
+            "Title": "戦艦Tier VI Fuso",
+            "Desc": "扶桑型戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Fuso.jpg",
+            "Viability": "**継戦能力**\n 41234\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性13.75％･装甲12.80％･対水雷防御15.25％\n**装甲**\n ･装甲 25mm-305mm･防郭 76mm-305mm･艦首/艦尾 25mm-102mm･砲郭 152mm-203mm･装甲甲板 35mm-99mm",
+            "MainGunRange": "12.88km",
+            "Mobility": "**最大速力** 23.90ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  14.70秒",
+            "Concealment": "12.36km",
+            "Thrust": "40000馬力"
+        },
+        "Nagato":{
+            "Title": "戦艦Tier VII Nagato",
+            "Desc": "長門型戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Nagato.jpg",
+            "Viability": "**継戦能力**\n43585\n**抗堪性**\n ･防郭防御12.50％･火災浸水耐性13.75％･装甲14.40％･対水雷防御17.25％",
+            "MainGunRange": "13.67km\n副砲射程 6.08km",
+            "Mobility": "**最大速力**  24.87ノット[kt]\n**転舵速度**  22.28度/秒\n**転舵所要時間**  15.90秒",
+            "Concealment": "11.76km",
+            "Thrust": "80000馬力"
+        },
+        "Amagi":{
+            "Title": "戦艦Tier VIII Amagi",
+            "Desc": "天城型巡洋戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Amagi.jpg",
+            "Viability": "**継戦能力**\n 49211\n**抗堪性**\n •防郭防御12.50％•火災浸水耐性12.50％•装甲13.60％•対水雷防御15.90％",
+            "MainGunRange": "14.42km\n副砲射程 6.21km",
+            "Mobility": "**最大速力** 29.47ノット[kt]\n**転舵速度** 4.80度/秒\n**転舵所要時間**  15.27秒",
+            "Concealment": "12.36km",
+            "Thrust": "131200馬力"
+        },
+        "Izumo":{
+            "Title": "戦艦Tier IX Izumo",
+            "Desc": "出雲型戦艦(大和型戦艦計画案A-140J2)",
+            "Image": "https://mcpenano.net/WoWsB/Izumo.jpg",
+            "Viability": "**継戦能力**\n 54979\n**抗堪性**\n ･防郭防御12.50％･火災浸水耐性12.50％･装甲14.40％･対水雷防御19.08％",
+            "MainGunRange": "15.17km\n副砲射程 6.90km",
+            "Mobility": "**最大速力** 28.88ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  16.91秒",
+            "Concealment": "12.42km",
+            "Thrust": "153000馬力"
+        },
+        "Yamato":{
+            "Title": "戦艦Tier X Yamato",
+            "Desc": "大和型戦艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=attach&refer=Yamato&openfile=Yamato%28a%292.png",
+            "Viability": "**継戦能力**\n 62920\n**装甲**\n 18mm-410mm･防郭 80mm-410mm･艦首/艦尾 32mmm･砲郭 25mm･装甲甲板 18mm-200mm",
+            "MainGunRange": "16.41km",
+            "Mobility": "**最大速力** 26.67ノット[kt]\n**転舵速度** 4.6度/秒\n**転舵所要時間**  19.20秒",
+            "Concealment": "12.60km",
+            "Thrust": "153,553馬力"
+        }
+    },
+    "Japan2":{
+        "Flag": "https://mcpenano.net/WoWsB/jp.png",
+        "Name": "大日本帝国海軍(駆逐艦、航空母艦、プレミアム艦)",
+        "Umikaze":{
+            "Title": "駆逐艦Tier II Umikaze",
+            "Desc": "海風型駆逐艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=attach&refer=Umikaze&openfile=20180306_020153_0.png",
+            "Viability": "**継戦能力**\n 7992\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲3.20％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度**  8.60度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "4.98km",
+            "Thrust": "20500馬力"
+        },
+        "Wakatake":{
+            "Title": "駆逐艦Tier III Wakatake",
+            "Desc": "若竹型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Wakatake.jpg",
+            "Viability": "**継戦能力**\n9156\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲3.20％･対水雷防御3.00",
+            "MainGunRange": "6.58km",
+            "Mobility": "**最大速力** 35.01ノット[kt]\n**転舵速度** 10.70度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.22km",
+            "Thrust": "21500馬力"
+        },
+        "Isokaze":{
+            "Title": "駆逐艦 Tier IV Isokaze",
+            "Desc": "磯風型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Isokaze.jpg",
+            "Viability": "**継戦能力**\n 8900\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.00％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 8.90度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.10km",
+            "Thrust": "27000馬力"
+        },
+        "Mutsuki":{
+            "Title": "駆逐艦 Tier V Mutsuki",
+            "Desc": "睦月型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Mutsuki.jpg",
+            "Viability": "**継戦能力**\n 9700\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.00％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 36.12ノット[kt]\n**転舵速度** 9.20度/秒\n**転舵所要時間**  2.70秒",
+            "Concealment": "5.40km",
+            "Thrust": "38500馬力"
+        },
+        "Fubuki":{
+            "Title": "駆逐艦 Tier VI Fubuki",
+            "Desc": "吹雪型駆逐艦(特I型駆逐艦)",
+            "Image": "https://mcpenano.net/WoWsB/Fubuki.jpg",
+            "Viability": "**継戦能力**\n11000\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "6.90km",
+            "Mobility": "**最大速力** 35.01ノット[kt]\n**転舵速度** 7.90度/秒\n**転舵所要時間**  3.90秒",
+            "Concealment": "6.36km",
+            "Thrust": "50000馬力"
+        },
+        "Akatsuki":{
+            "Title": "駆逐艦 Tier VII Akatsuki",
+            "Desc": "暁型駆逐艦(特III型駆逐艦)1番艦暁",
+            "Image": "https://mcpenano.net/WoWsB/Akatsuki.jpg",
+            "Viability": "**継戦能力**\n 11800\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "6.90km",
+            "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度** 8.70度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "6.24km",
+            "Thrust": "50000馬力"
+        },
+        "Kagero":{
+            "Title": "駆逐艦 Tier VIII Kagero",
+            "Desc": "陽炎型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Kagero.jpg",
+            "Viability": "**継戦能力**\n13500\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間**  3.00秒",
+            "Concealment": "6.00km",
+            "Thrust": "52000馬力"
+        },
+        "Shimakaze":{
+            "Title": "駆逐艦 Tier X Shimakaze",
+            "Desc": "島風型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Shimakaze.jpg",
+            "Viability": "**継戦能力**\n 15200\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲4.80％･対水雷防御3.00％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 39.46ノット[kt]\n**転舵速度**  8.50度/秒\n**転舵所要時間**  3.60秒",
+            "Concealment": "6.48km",
+            "Thrust": "80000馬力"
+        },
+        "Minekaze":{
+            "Title": "駆逐艦 Tier V Minekaze",
+            "Desc": "峯風型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Minekaze.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Hatsuharu":{
+            "Title": "駆逐艦 Tier VI Hatsuharu",
+            "Desc": "初春型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Hatsuharu.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Shiratsuyu":{
+            "Title": "駆逐艦 Tier VII Shiratsuyu",
+            "Desc": "白露型駆逐艦",
+            "Image": "https://mcenano.net/WoWsB/Shiratsuyu.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Akizuki":{
+            "Title": "駆逐艦 Tier VIII Akizuki",
+            "Desc": "秋月型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Akizuki.jpg",
+            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
+            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Hosho":{
+            "Title": "航空母艦 Tier IV Hosho",
+            "Desc": "鳳翔型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Hosho.jpg",
+            "Viability": "**継戦能力**\n 17024\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性11.00％･装甲4.40％･対水雷防御6.00％\n**装甲**\n 装甲13mm～20mm",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 24.45ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  7.30秒",
+            "Concealment": "7.20km",
+            "Thrust": "30000馬力"
+        },
+        "Zuiho":{
+            "Title": "航空母艦 Tier V Zuiho",
+            "Desc": "瑞鳳型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Zuiho.jpg",
+            "Viability": "**継戦能力**\n 19152\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性11.00％･装甲4.40％･対水雷防御7.42％\n**装甲**\n 13mm～25mm",
+            "MainGunRange": "6.60km",
+            "Mobility": "**最大速力** 28.62ノット[kt]\n**転舵速度**  4.40度/秒\n**転舵所要時間**  9.90秒",
+            "Concealment": "7.86km",
+            "Thrust": "52000馬力"
+        },
+        "Ryujo":{
+            "Title": "航空母艦 Tier VI Ryujo",
+            "Desc": "龍驤型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Ryujo.jpg",
+            "Viability": "**継戦能力**\n 23322\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性11.00％･装甲6.40％･対水雷防御6.30％\n**装甲**\n 13mm～25mm",
+            "MainGunRange": "6.60km",
+            "Mobility": "*最大速力** 28.62ノット[kt]\n**転舵速度** 5.20度/秒\n**転舵所要時間**  10.20秒",
+            "Concealment": "7.22km",
+            "Thrust": "65000馬力"
+        },
+        "Hiryu":{
+            "Title": "航空母艦 Tier VII Hiryu",
+            "Desc": "飛龍型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Hiryu.jpg",
+            "Viability": "**継戦能力**\n 00000\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲6.40％･対水雷防御11.00％",
+            "MainGunRange": "7.2km",
+            "Mobility": "**最大速力**  33.2ノット[kt]\n**転舵速度** 4.6度/秒\n**転舵所要時間** 11.4秒",
+            "Concealment": "9.3km",
+            "Thrust": "153000馬力"
+        },
+        "Shokaku":{
+            "Title": "航空母艦 Tier VIII Shokaku",
+            "Desc": "翔鶴型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Shokaku.jpg",
+            "Viability": "**継戦能力**\n 25200\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性10.00％･装甲7.50％･対水雷防御10.50％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 4.30度/秒\n**転舵所要時間**  13.20秒",
+            "Concealment": "9.72km",
+            "Thrust": "160000馬力"
+        },
+        "Taiho":{
+            "Title": "航空母艦 Tier IX Taiho",
+            "Desc": "大鳳型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Taiho.jpg",
+            "Viability": "**継戦能力**\n 34116\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性12.50％･装甲9.60％･対水雷防御10.50％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度** 4.10度/秒\n**転舵所要時間**  13.09秒 ",
+            "Concealment": "8.77km",
+            "Thrust": "160000馬力"
+        },
+        "Hakuryu":{
+            "Title": "航空母艦 Tier X Hakuryu",
+            "Desc": "白龍型航空母艦(G15/改大鳳型航空母艦)",
+            "Image": "https://mcpenano.net/WoWsB/Hakuryu.jpg",
+            "Viability": "**継戦能力**\n38507\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性12.50％･装甲9.60％･対水雷防御10.50％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 3.80度/秒\n**転舵所要時間**  16.20秒 ",
+            "Concealment": "9.49km",
+            "Thrust": "153000馬力"
+        },
+        "Mikasa":{
+            "Title": "戦艦Tier II Mikasa",
+            "Desc": "敷島型戦艦 四番艦 三笠",
+            "Image": "https://mcpenano.net/WoWsB/Mikasa.jpg",
+            "Viability": "**継戦能力**\n 24939\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲8.00％･対水雷防御9.54％\n**装甲**\n ･装甲13mm-229mm･防郭 25mm-229mm･艦首/艦尾 16mm-127mm･砲郭 13mm-152mm･装甲甲板 32mm-51mm",
+            "MainGunRange": "10.11km",
+            "Mobility": "**最大速力** 18.67ノット[kt]\n**転舵速度** 5.10度/秒\n**転舵所要時間**  10.20秒 ",
+            "Concealment": "9.54km",
+            "Thrust": "15000馬力"
+        },
+        "Katori":{
+            "Title": "巡洋艦 Tier III Katori",
+            "Desc": "香取型練習巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Katori.jpg",
+            "Viability": "**継戦能力**\n 15151\n**抗堪性**\n ･防郭防御7.50％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n •装甲6-51mm•防郭 10-6mm•艦首•艦尾 6mm•砲郭 6mm•装甲甲板 6-51mm",
+            "MainGunRange": "8.53km",
+            "Mobility": "**最大速力** 19.31ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間**  5.70秒",
+            "Concealment": "6.30km",
+            "Thrust": "8000馬力"
+        },
+        "Yubari":{
+            "Title": "巡洋艦 Tier IV Yubari",
+            "Desc": "夕張型軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Yubari.jpg",
+            "Viability": "**継戦能力**\n 15904\n**抗堪性**\n ･防郭防御7.50％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n 装甲10mm-57mm･防郭 25mm-57mm･艦首/艦尾 10mm･装甲甲板 25mm",
+            "MainGunRange": "8.65km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 8.60度/秒\n**転舵所要時間**  4.20秒",
+            "Concealment": "6.24km",
+            "Thrust": "57900馬力"
+        },
+        "Kamikaze":{
+            "Title": "駆逐艦 Tier V Kamikaze",
+            "Desc": "神風型駆逐艦",
+            "Image": "https://mcpenano.net/WoWsB/Kamikaze.jpg",
+            "Viability": "**継戦能力**\n 10304\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性10.00％･装甲4.00％･対水雷防御3.00％\n**装甲**\n ･装甲10mm-14mm･艦首/艦尾 10mm･砲郭 10mm-14mm･装甲甲板 14mm",
+            "MainGunRange": "6.68km",
+            "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度** 9.60度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.70km",
+            "Thrust": "38500馬力"
         }
     }
 }
