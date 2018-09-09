@@ -1,3 +1,18 @@
+# World of Warships Blitz Discord Bot(WoWsb Bot)
+# Copyright (C) 2018  WoWsb Japan community
+#
+# WoWsb Bot is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# WoWsb Bot is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 import discord
 import version
 import traceback
@@ -45,4 +60,4 @@ if __name__ == '__main__':
 
     bot = WoWsbBot()
     bot.remove_command('help')
-    bot.run('NDgzMTE2NzU3MDM3MzUwOTEy.DmVBtw.7Dh32aJ6otGuxB543CviSzU3W28')
+    bot.run('Bot token')

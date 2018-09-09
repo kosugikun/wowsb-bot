@@ -15,7 +15,7 @@
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 import os.path
 
-MAIN_VERSION = '0.1.1'
+MAIN_VERSION = '0.1.2'
 SUB_VERSION = '-Beta Edition'
 VERSION = MAIN_VERSION + SUB_VERSION
 

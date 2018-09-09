@@ -1,3 +1,18 @@
+# World of Warships Blitz Discord Bot(WoWsb Bot)
+# Copyright (C) 2018  WoWsb Japan community
+#
+# WoWsb Bot is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# WoWsb Bot is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 import discord
 import asyncio
 import json
@@ -77,7 +92,7 @@ class WoWsb():
     @commands.command(pass_context = True)
     async def 起床(self, ctx):
         voice = await ctx.message.author.voice.channel.connect()
-        voice.play(discord.FFmpegPCMAudio('./voice.mp3'))
+        voice.play(discord.FFmpegPCMAudio('./voice/voice.mp3'))
 
         counter = 0
         duration = 10   # In seconds
@@ -89,10 +104,22 @@ class WoWsb():
     @commands.command(pass_context = True)
     async def 合戦用意(self, ctx):
         voice = await ctx.message.author.voice.channel.connect()
-        voice.play(discord.FFmpegPCMAudio('./voice2.mp3'))
+        voice.play(discord.FFmpegPCMAudio('./voice/voice2.mp3'))
 
         counter = 0
         duration = 10   # In seconds
+        while not counter >= duration:
+            await asyncio.sleep(1)
+            counter = counter + 1
+        await voice.disconnect()
+
+    @commands.command(pass_context = True)
+    async def 航空機防御(self, ctx):
+        voice = await ctx.message.author.voice.channel.connect()
+        voice.play(discord.FFmpegPCMAudio('./voice/航空機防御.mp3'))
+
+        counter = 0
+        duration = 7   # In seconds
         while not counter >= duration:
             await asyncio.sleep(1)
             counter = counter + 1
@@ -105,7 +132,6 @@ class WoWsb():
         embed.add_field(name="!!wows <軍艦の名前>", value="軍艦のステータスを表示します。\n例: !!shipinfo Yamato")
         embed.add_field(name="!!info", value="WoWsb Botの情報を表示します。")
         await ctx.send(embed=embed)
-   
     
 def setup(bot):
     bot.add_cog(WoWsb(bot))
