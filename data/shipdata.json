@@ -305,6 +305,86 @@
             "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
             "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
             "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+        },
+        "Hosho":{
+            "Title": "航空母艦 Tier IV Hosho",
+            "Desc": "鳳翔型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Hosho.jpg",
+            "Viability": "**継戦能力**\n 17024\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性11.00％･装甲4.40％･対水雷防御6.00％\n**装甲**\n 装甲13mm～20mm",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 24.45ノット[kt]\n**転舵速度** 4.60度/秒\n**転舵所要時間**  7.30秒",
+            "Concealment": "7.20km",
+            "Thrust": "30000馬力"
+        },
+        "Zuiho":{
+            "Title": "航空母艦 Tier V Zuiho",
+            "Desc": "瑞鳳型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Zuiho.jpg",
+            "Viability": "**継戦能力**\n 19152\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性11.00％･装甲4.40％･対水雷防御7.42％\n**装甲**\n 13mm～25mm",
+            "MainGunRange": "6.60km",
+            "Mobility": "**最大速力** 28.62ノット[kt]\n**転舵速度**  4.40度/秒\n**転舵所要時間**  9.90秒",
+            "Concealment": "7.86km",
+            "Thrust": "52000馬力"
+        },
+        "Ryujo":{
+            "Title": "航空母艦 Tier VI Ryujo",
+            "Desc": "龍驤型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Ryujo.jpg",
+            "Viability": "**継戦能力**\n 23322\n**抗堪性**\n ･防郭防御5.00％･火災浸水耐性11.00％･装甲6.40％･対水雷防御6.30％\n**装甲**\n 13mm～25mm",
+            "MainGunRange": "6.60km",
+            "Mobility": "*最大速力** 28.62ノット[kt]\n**転舵速度** 5.20度/秒\n**転舵所要時間**  10.20秒",
+            "Concealment": "7.22km",
+            "Thrust": "65000馬力"
+        },
+        "Hiryu":{
+            "Title": "航空母艦 Tier VII Hiryu",
+            "Desc": "飛龍型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Hiryu.jpg",
+            "Viability": "**継戦能力**\n 00000\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性11.00％･装甲6.40％･対水雷防御11.00％",
+            "MainGunRange": "7.2km",
+            "Mobility": "**最大速力**  33.2ノット[kt]\n**転舵速度** 4.6度/秒\n**転舵所要時間** 11.4秒",
+            "Concealment": "9.3km",
+            "Thrust": "153000馬力"
+        },
+        "Shokaku":{
+            "Title": "航空母艦 Tier VIII Shokaku",
+            "Desc": "翔鶴型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Shokaku.jpg",
+            "Viability": "**継戦能力**\n 25200\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性10.00％･装甲7.50％･対水雷防御10.50％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 4.30度/秒\n**転舵所要時間**  13.20秒",
+            "Concealment": "9.72km",
+            "Thrust": "160000馬力"
+        },
+        "Taiho":{
+            "Title": "航空母艦 Tier IX Taiho",
+            "Desc": "大鳳型航空母艦",
+            "Image": "https://mcpenano.net/WoWsB/Taiho.jpg",
+            "Viability": "**継戦能力**\n 34116\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性12.50％･装甲9.60％･対水雷防御10.50％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度** 4.10度/秒\n**転舵所要時間**  13.09秒 ",
+            "Concealment": "8.77km",
+            "Thrust": "160000馬力"
+        },
+        "Hakuryu":{
+            "Title": "航空母艦 Tier X Hakuryu",
+            "Desc": "白龍型航空母艦(G15/改大鳳型航空母艦)",
+            "Image": "https://mcpenano.net/WoWsB/Hakuryu.jpg",
+            "Viability": "**継戦能力**\n38507\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性12.50％･装甲9.60％･対水雷防御10.50％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 3.80度/秒\n**転舵所要時間**  16.20秒 ",
+            "Concealment": "9.49km",
+            "Thrust": "153000馬力"
+        },
+        "Mikasa":{
+            "Title": "戦艦Tier II Mikasa",
+            "Desc": "敷島型戦艦 四番艦 三笠",
+            "Image": "https://mcpenano.net/WoWsB/Mikasa.jpg",
+            "Viability": "**最大速力** 18.67ノット[kt]\n**転舵速度** 5.10度/秒\n**転舵所要時間**  10.20秒",
+            "MainGunRange": "10.11km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 3.80度/秒\n**転舵所要時間**  16.20秒 ",
+            "Concealment": "9.49km",
+            "Thrust": "153000馬力"
         }
     }
 }
