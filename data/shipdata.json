@@ -1,7 +1,7 @@
 {
     "Japan":{
         "Flag": "https://mcpenano.net/WoWsB/jp.png",
-        "Name": "大日本帝国海軍",
+        "Name": "大日本帝国海軍(巡洋艦、戦艦)",
         "Hashidate":{
             "Title": "巡洋艦Tier I Hashidate",
             "Desc": "橋立",
@@ -185,7 +185,7 @@
     },
     "Japan2":{
         "Flag": "https://mcpenano.net/WoWsB/jp.png",
-        "Name": "大日本帝国海軍",
+        "Name": "大日本帝国海軍(駆逐艦、航空母艦、プレミアム艦)",
         "Umikaze":{
             "Title": "駆逐艦Tier II Umikaze",
             "Desc": "海風型駆逐艦",
