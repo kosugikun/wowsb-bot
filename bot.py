@@ -13,10 +13,12 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
+
 import discord
 import version
 import traceback
 import os
+import changes
 
 from discord.ext import commands
 from discord.ext.commands import Bot
@@ -30,6 +32,8 @@ class WoWsbBot(Bot):
     def __init__(self, formatter=None, description=None, pm_help=False, **options):
         self._version = version.VERSION
         self._members = version.MEMBERS
+        self._uplog = changes.CHANGES
+        self._upimage = changes.UPIMAGE
 
         super().__init__('!!', formatter, description, pm_help, **options)
         for extension in _initial_extensions:
@@ -60,4 +64,4 @@ if __name__ == '__main__':
 
     bot = WoWsbBot()
     bot.remove_command('help')
-    bot.run('Bot token')
+    bot.run('')

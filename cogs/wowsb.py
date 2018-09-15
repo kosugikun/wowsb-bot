@@ -13,9 +13,14 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
+
+import dbl
 import discord
 import asyncio
 import json
+import logging
+import aiohttp
+import colorlog
 
 from discord.ext import commands
 
@@ -24,14 +29,12 @@ class WoWsb():
     def __init__(self, bot):
         self.bot = bot
         self.data = None
-
         with(open(self.bot.get_data('shipdata.json'), encoding='utf-8')) as f:
             self.data = json.load(f)
-
     @commands.command(pass_context=True)
     async def info(self, ctx):
         embed = discord.Embed(title="WoWsb Bot", description="WoWsb-Bot開発メンバー", color=0xeee657)
-
+        logger.info('infoを送信しました。')
         embed.add_field(name="開発リーダー", value="Kosugi_kun")
         embed.add_field(name="プログラマー", value="Episword")
         embed.add_field(name="軍艦の情報入力", value="MT3\nura4316")
@@ -62,8 +65,9 @@ class WoWsb():
             return
         embed = discord.Embed()
         embed.set_author(name=data['Name'], icon_url=data['Flag'])
+        embed.set_image(url=data['BigFlag'])
         for k, v in data.items():
-            if k in ('Flag', 'Name'):
+            if k in ('Flag', 'Name', 'BigFlag'):
                 continue
             name = data['Name']
             title = v['Title']
@@ -132,6 +136,16 @@ class WoWsb():
         embed.add_field(name="!!wows <軍艦の名前>", value="軍艦のステータスを表示します。\n例: !!shipinfo Yamato")
         embed.add_field(name="!!info", value="WoWsb Botの情報を表示します。")
         await ctx.send(embed=embed)
-    
+
+    @commands.command(pass_context=True)
+    async def uplog(self, ctx):
+        embed = discord.Embed(title='WoWsb Bot', description=f'Version{self.bot._version}' , color=0xeee657)
+
+        embed.add_field(name="変更ログ", value=self.bot._uplog)
+        embed.set_image(url=self.bot._upimage)
+
+
+        await ctx.send(embed=embed)
+
 def setup(bot):
     bot.add_cog(WoWsb(bot))
