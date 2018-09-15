@@ -402,7 +402,7 @@
             "Title": "巡洋艦 Tier IV Yubari",
             "Desc": "夕張型軽巡洋艦",
             "Image": "https://mcpenano.net/WoWsB/Yubari.jpg",
-            "Viability": "**継戦能力**\n 15904\n**抗堪性**\n ･防郭防御7.50％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n 装甲10mm-57mm･防郭 25mm-57mm･艦首/艦尾 10mm･装甲甲板 25mm",
+            "Viability": "**継戦能力**\n 15904\n**抗堪性**\n･防郭防御1.00％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％\n**装甲**\n 装甲10mm-57mm･防郭 25mm-57mm･艦首/艦尾 10mm･装甲甲板 25mm",
             "MainGunRange": "8.65km",
             "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 8.60度/秒\n**転舵所要時間**  4.20秒",
             "Concealment": "6.24km",
@@ -417,6 +417,21 @@
             "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度** 9.60度/秒\n**転舵所要時間**  3.30秒",
             "Concealment": "5.70km",
             "Thrust": "38500馬力"
+        }
+    },
+    "USA":{
+        "Flag": "https://mcpenano.net/WoWsB/usa.png",
+        "BigFlag": "https://mcpenano.net/WoWsB/big/usa.png",
+        "Name": "アメリカ合衆国(巡洋艦、戦艦)",
+        "Erie":{
+            "Title": "巡洋艦Tier I Erie",
+            "Desc": "エリー級哨戒砲艦",
+            "Image": "https://mcpenano.net/WoWsB/Erie.jpg",
+            "Viability": "**継戦能力**\n10176\n**抗堪性**\n･防郭防ふ御5.00％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％",
+            "MainGunRange": "7.80km",
+            "Mobility": "**最大速力** 19.45ノット[kt]\n**転舵速度** 7.30度/秒\n**転舵所要時間** 4.20秒",
+            "Concealment": "8.40km",
+            "Thrust": "15000馬力"
         }
     }
 }
