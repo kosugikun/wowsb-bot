@@ -39,7 +39,7 @@ class WoWsb():
         embed.add_field(name="プログラマー", value="Episword")
         embed.add_field(name="軍艦の情報入力", value="MT3\nura4316")
         embed.add_field(name="開発協力", value="WoWsb 日本コミュニティ")
-        embed.add_field(name="Botバージョン", value=self.bot._version)
+        embed.add_field(name="バージョン", value=self.bot._version)
         embed.add_field(name="ライセンス", value="GNU General Public License v3.0")
         embed.add_field(name="著作権", value="Copyright (c) 2018 WoWsb Japan community")
         await ctx.send(embed=embed)
