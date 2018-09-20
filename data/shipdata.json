@@ -272,41 +272,41 @@
             "Title": "駆逐艦 Tier V Minekaze",
             "Desc": "峯風型駆逐艦",
             "Image": "https://mcpenano.net/WoWsB/Minekaze.jpg",
-            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+            "Viability": "**継戦能力**\n9300\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲3.00％･対水雷防御3.00％",
+            "MainGunRange": "6.30km",
+            "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度**  9.20度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "5.52km",
+            "Thrust": "38500馬力"
         },
         "Hatsuharu":{
             "Title": "駆逐艦 Tier VI Hatsuharu",
             "Desc": "初春型駆逐艦",
             "Image": "https://mcpenano.net/WoWsB/Hatsuharu.jpg",
-            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+            "Viability": "**継戦能力**\n10300\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲3.00％･対水雷防御3.00％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 33.87ノット[kt]\n**転舵速度**  8.30度/秒\n**転舵所要時間**  3.00秒",
+            "Concealment": "6.18km",
+            "Thrust": "42000馬力"
         },
         "Shiratsuyu":{
             "Title": "駆逐艦 Tier VII Shiratsuyu",
             "Desc": "白露型駆逐艦",
             "Image": "https://mcenano.net/WoWsB/Shiratsuyu.jpg",
-            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+            "Viability": "**継戦能力**\n11400\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲3.00％･対水雷防御3.00％",
+            "MainGunRange": "7.20km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度**  8.50度/秒\n**転舵所要時間**  3.30秒",
+            "Concealment": "6.42km",
+            "Thrust": "42000馬力"
         },
         "Akizuki":{
             "Title": "駆逐艦 Tier VIII Akizuki",
             "Desc": "秋月型駆逐艦",
             "Image": "https://mcpenano.net/WoWsB/Akizuki.jpg",
-            "Viability": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "MainGunRange": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Mobility": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Concealment": "WoWsbのアップデートが来ていないため情報がありません。:(",
-            "Thrust": "WoWsbのアップデートが来ていないため情報がありません。:("
+            "Viability": "**継戦能力**\n15500\n**抗堪性**\n･防郭防御5.00％･火災浸水耐性10.00％･装甲4.50％･対水雷防御3.00％",
+            "MainGunRange": "8.22km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度**  7.20度/秒\n**転舵所要時間**  4.20秒",
+            "Concealment": "6.90km",
+            "Thrust": "52000馬力"
         },
         "Hosho":{
             "Title": "航空母艦 Tier IV Hosho",
@@ -417,6 +417,16 @@
             "Mobility": "**最大速力** 38.62ノット[kt]\n**転舵速度** 9.60度/秒\n**転舵所要時間**  3.30秒",
             "Concealment": "5.70km",
             "Thrust": "38500馬力"
+        },
+        "Ise":{
+            "Title": "戦艦Tier VII Ise",
+            "Desc": "伊勢型戦艦",
+            "Image": "https://mcpenano.net/WoWsB/Ise.png",
+            "Viability": "**継戦能力**\n 43930\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性12.50％･装甲12.00％･対水雷防御16.50％",
+            "MainGunRange": "13.22km",
+            "Mobility": "**最大速力** 24.45ノット[kt]\n**転舵速度** 5.20度/秒\n**転舵所要時間**  15.30秒",
+            "Concealment": "12.12km",
+            "Thrust": "80825馬力"
         }
     },
     "USA":{
@@ -426,7 +436,7 @@
         "Erie":{
             "Title": "巡洋艦Tier I Erie",
             "Desc": "エリー級哨戒砲艦",
-            "Image": "https://mcpenano.net/WoWsB/Erie.jpg",
+            "Image": "https://mcpenano.net/WoWsB/USA/Erie.jpg",
             "Viability": "**継戦能力**\n10176\n**抗堪性**\n･防郭防ふ御5.00％･火災浸水耐性10.00％･装甲5.60％･対水雷防御4.50％",
             "MainGunRange": "7.80km",
             "Mobility": "**最大速力** 19.45ノット[kt]\n**転舵速度** 7.30度/秒\n**転舵所要時間** 4.20秒",
