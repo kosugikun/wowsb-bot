@@ -442,6 +442,46 @@
             "Mobility": "**最大速力** 19.45ノット[kt]\n**転舵速度** 7.30度/秒\n**転舵所要時間** 4.20秒",
             "Concealment": "8.40km",
             "Thrust": "15000馬力"
+        },
+        "Chester":{
+            "Title": "巡洋艦Tier II Chester",
+            "Desc": "チェスター級軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Chester.jpg",
+            "Viability": "**継戦能力**\n 13407\n**抗堪性**\n 防郭防御 7.50% 火災浸水耐性 10.00% 装甲 5.60% 対水雷防御	4.50%",
+            "MainGunRange": "7.80km",
+            "Mobility": "**最大速力** 23.90ノット[kt]\n**転舵速度** 7.50度/秒\n**転舵所要時間** 5.10秒",
+            "Concealment": "6.60km",
+            "Thrust": "XXXX馬力"
+        },
+        "St.Louis":{
+            "Title": "巡洋艦Tier III St. Louis",
+            "Desc": "セントルイス級防護巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/St.Louis.jpg",
+            "Viability": "**継戦能力**\n 18639",
+            "MainGunRange": "8.78km",
+            "Mobility": "**最大速力** 21.4ノット[kt]\n**転舵速度** 6.70度/秒\n**転舵所要時間** 8.7秒",
+            "Concealment": "7.5km",
+            "Thrust": "22,000馬力"
+        },
+        "Phoenix":{
+            "Title": "巡洋艦Tier IV Phoenix",
+            "Desc": "フェニックス級軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Phoenix.jpg",
+            "Viability": "**継戦能力**\n 16912",
+            "MainGunRange": "10.49km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度** 5.7度/秒\n**転舵所要時間** 7.80秒",
+            "Concealment": "7.02km",
+            "Thrust": "90000馬力"
+        },
+        "Omaha":{
+            "Title": "巡洋艦Tier V Omaha",
+            "Desc": "オマハ級軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Omaha.jpg",
+            "Viability": "**継戦能力**\n 16900",
+            "MainGunRange": "9.9km",
+            "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間** 5.7秒",
+            "Concealment": "7.26km",
+            "Thrust": "90000馬力"
         }
     }
 }
