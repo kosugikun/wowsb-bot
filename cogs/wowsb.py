@@ -14,13 +14,9 @@
 # You should have received a copy of the GNU General Public License
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 
-import dbl
 import discord
 import asyncio
 import json
-import logging
-import aiohttp
-import colorlog
 
 from discord.ext import commands
 
@@ -31,7 +27,8 @@ class WoWsb():
         self.data = None
         with(open(self.bot.get_data('shipdata.json'), encoding='utf-8')) as f:
             self.data = json.load(f)
-    @commands.command(pass_context=True)
+
+    @commands.command()
     async def info(self, ctx):
         embed = discord.Embed(title="WoWsb Bot", description="WoWsb-Bot開発メンバー", color=0xeee657)
         logger.info('infoを送信しました。')
@@ -44,7 +41,7 @@ class WoWsb():
         embed.add_field(name="著作権", value="Copyright (c) 2018 WoWsb Japan community")
         await ctx.send(embed=embed)
 
-    @commands.command(pass_context=True)
+    @commands.command()
     async def wows(self, ctx, shipname: str):
         for k in self.data.keys():
             if shipname in ('Flag', 'Name'):
@@ -56,7 +53,7 @@ class WoWsb():
 
         await ctx.send('この軍艦の情報は見つかりませんでした。')
 
-    @commands.command(pass_context=True)
+    @commands.command()
     async def wowslist(self, ctx, country: str):
         try:
             data = self.data[country]
@@ -93,8 +90,8 @@ class WoWsb():
 
    
 
-    @commands.command(pass_context = True)
-    async def 起床(self, ctx):
+    @commands.command(name='起床')
+    async def get_up(self, ctx):
         voice = await ctx.message.author.voice.channel.connect()
         voice.play(discord.FFmpegPCMAudio('./voice/voice.mp3'))
 
@@ -105,8 +102,8 @@ class WoWsb():
             counter = counter + 1
         await voice.disconnect()
 
-    @commands.command(pass_context = True)
-    async def 合戦用意(self, ctx):
+    @commands.command(name='合戦用意')
+    async def battle_ready(self, ctx):
         voice = await ctx.message.author.voice.channel.connect()
         voice.play(discord.FFmpegPCMAudio('./voice/voice2.mp3'))
 
@@ -117,8 +114,8 @@ class WoWsb():
             counter = counter + 1
         await voice.disconnect()
 
-    @commands.command(pass_context = True)
-    async def 航空機防御(self, ctx):
+    @commands.command(name='航空機防御')
+    async def aircraft_def(self, ctx):
         voice = await ctx.message.author.voice.channel.connect()
         voice.play(discord.FFmpegPCMAudio('./voice/航空機防御.mp3'))
 
@@ -128,16 +125,16 @@ class WoWsb():
             await asyncio.sleep(1)
             counter = counter + 1
         await voice.disconnect()
-    @commands.command(pass_context=True)
+    @commands.command()
     async def com(self, ctx):
         embed = discord.Embed(title="WoWsb Bot", description="ヘルプ", color=0xeee657)
 
         embed.add_field(name="!!wowslist <国の名前>", value="軍艦のリストを表示します。\n日本:japan")
-        embed.add_field(name="!!wows <軍艦の名前>", value="軍艦のステータスを表示します。\n例: !!shipinfo Yamato")
+        embed.add_field(name="!!wows <軍艦の名前>", value="軍艦のステータスを表示します。\n例: !!wows Yamato")
         embed.add_field(name="!!info", value="WoWsb Botの情報を表示します。")
         await ctx.send(embed=embed)
 
-    @commands.command(pass_context=True)
+    @commands.command()
     async def uplog(self, ctx):
         embed = discord.Embed(title='WoWsb Bot', description=f'Version{self.bot._version}' , color=0xeee657)
 
