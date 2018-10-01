@@ -1,5 +1,5 @@
 # World of Warships Blitz Discord Bot(WoWsb Bot)
-# Copyright (C) 2018  WoWsb Japan community
+# Copyright (C) 2018  WoWsb Japan community , Cosgy Dev
 #
 # WoWsb Bot is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 # along with WoWsb Bot. If not, see <http://www.gnu.org/licenses/>.
 import os.path
 
-MAIN_VERSION = '0.1.3'
+MAIN_VERSION = '0.1.4'
 SUB_VERSION = '-Beta Edition'
 VERSION = MAIN_VERSION + SUB_VERSION
 

@@ -1,5 +1,5 @@
 # World of Warships Blitz Discord Bot(WoWsb Bot)
-# Copyright (C) 2018  WoWsb Japan community
+# Copyright (C) 2018  WoWsb Japan community , Cosgy Dev
 #
 # WoWsb Bot is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -31,7 +31,6 @@ class WoWsb():
     @commands.command()
     async def info(self, ctx):
         embed = discord.Embed(title="WoWsb Bot", description="WoWsb-Bot開発メンバー", color=0xeee657)
-        logger.info('infoを送信しました。')
         embed.add_field(name="開発リーダー", value="Kosugi_kun")
         embed.add_field(name="プログラマー", value="Episword")
         embed.add_field(name="軍艦の情報入力", value="MT3\nura4316")
