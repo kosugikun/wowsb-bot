@@ -64,4 +64,4 @@ if __name__ == '__main__':
 
     bot = WoWsbBot()
     bot.remove_command('help')
-    bot.run('NDgzMTE2NzU3MDM3MzUwOTEy.DnSwMg.FF592kvb-Qs838FomEkozzg79Js')
+    bot.run('トークン')
