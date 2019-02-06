@@ -420,13 +420,23 @@
         },
         "Ise":{
             "Title": "戦艦Tier VII Ise",
-            "Desc": "伊勢型戦艦",
+            "Desc": "最上型軽巡洋艦",
             "Image": "https://mcpenano.net/WoWsB/Ise.png",
             "Viability": "**継戦能力**\n 43930\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性12.50％･装甲12.00％･対水雷防御16.50％",
             "MainGunRange": "13.22km",
             "Mobility": "**最大速力** 24.45ノット[kt]\n**転舵速度** 5.20度/秒\n**転舵所要時間**  15.30秒",
             "Concealment": "12.12km",
             "Thrust": "80825馬力"
+        },
+        "Mogami":{
+            "Title": "巡洋艦Tier VIII Mogami",
+            "Desc": "最上型軽巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/Mogami.png",
+            "Viability": "**継戦能力**\n 29972\n**抗堪性**\n ･防郭防御10.00％･火災浸水耐性10.00％･装甲9.00％･対水雷防御7.50％",
+            "MainGunRange": "10.45km",
+            "Mobility": "**最大速力** 34.18ノット[kt]\n**転舵速度** 6.60度/秒\n**転舵所要時間**  7.20秒 **最大出力への所要時間** 19.26秒",
+            "Concealment": "8.28km",
+            "Thrust": "154000馬力"
         }
     },
     "USA":{
@@ -447,7 +457,7 @@
             "Title": "巡洋艦Tier II Chester",
             "Desc": "チェスター級軽巡洋艦",
             "Image": "https://mcpenano.net/WoWsB/USA/Chester.jpg",
-            "Viability": "**継戦能力**\n 13407\n**抗堪性**\n 防郭防御 7.50% 火災浸水耐性 10.00% 装甲 5.60% 対水雷防御	4.50%",
+            "Viability": "**継戦能力**\n13407\n**抗堪性**\n･防郭防御7.50％･火災浸水耐性10.00％･装甲5.00％･対水雷防御4.50％",
             "MainGunRange": "7.80km",
             "Mobility": "**最大速力** 23.90ノット[kt]\n**転舵速度** 7.50度/秒\n**転舵所要時間** 5.10秒",
             "Concealment": "6.60km",
@@ -457,7 +467,7 @@
             "Title": "巡洋艦Tier III St. Louis",
             "Desc": "セントルイス級防護巡洋艦",
             "Image": "https://mcpenano.net/WoWsB/USA/St.Louis.jpg",
-            "Viability": "**継戦能力**\n 18639",
+            "Viability": "**継戦能力**\n18639",
             "MainGunRange": "8.78km",
             "Mobility": "**最大速力** 21.4ノット[kt]\n**転舵速度** 6.70度/秒\n**転舵所要時間** 8.7秒",
             "Concealment": "7.5km",
@@ -482,6 +492,66 @@
             "Mobility": "**最大速力** 33.20ノット[kt]\n**転舵速度** 8.20度/秒\n**転舵所要時間** 5.7秒",
             "Concealment": "7.26km",
             "Thrust": "90000馬力"
+        },
+        "Pensacola":{
+            "Title": "巡洋艦Tier VI Pensacola",
+            "Desc": "ペンサコーラ級重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Pensacola.jpg",
+            "Viability": "**継戦能力**\n 20700",
+            "MainGunRange": "9.48km **副砲射程 5.10km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度** 7.50度/秒\n**転舵所要時間** 8.10秒",
+            "Concealment": "9.48km",
+            "Thrust": "107000馬力"
+        },
+        "NewOrleans":{
+            "Title": "巡洋艦Tier VII New Orleans",
+            "Desc": "ニューオーリンズ級重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/New-Orleans.jpg",
+            "Viability": "**継戦能力**\n 24900",
+            "MainGunRange": "9.48km **副砲射程 5.10km",
+            "Mobility": "**最大速力** 31.68ノット[kt]\n**転舵速度** 7.10度/秒\n**転舵所要時間** 5.70秒",
+            "Concealment": "8.40km",
+            "Thrust": "107000馬力"
+        },
+        "Wichita":{
+            "Title": "巡洋艦Tier VIII Wichita",
+            "Desc": "ウィチタ級重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Wichita.jpg",
+            "Viability": "**継戦能力**\n 34239",
+            "MainGunRange": "10.88km **副砲射程 5.87km",
+            "Mobility": "**最大速力** 31.68ノット[kt]\n**転舵速度** 6.60度/秒\n**転舵所要時間** 6.60秒",
+            "Concealment": "8.58km",
+            "Thrust": "100000馬力"
+        },
+        "Baltimore":{
+            "Title": "巡洋艦Tier IX Baltimore",
+            "Desc": "ボルチモア級重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Baltimore.jpg",
+            "Viability": "**継戦能力**\n 37061",
+            "MainGunRange": "10.88km **副砲射程 5.87km",
+            "Mobility": "**最大速力** 31.68ノット[kt]\n**転舵速度** 6.40度/秒\n**転舵所要時間** 7.80秒",
+            "Concealment": "8.88km",
+            "Thrust": "120000馬力"
+        },
+        "DesMoines":{
+            "Title": "巡洋艦Tier X Des Moines",
+            "Desc": "デモイン級重巡洋艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Des-Moines.jpg",
+            "Viability": "**継戦能力**\n 32400",
+            "MainGunRange": "9.30km **副砲射程 5.10km",
+            "Mobility": "**最大速力** 32.23ノット[kt]\n**転舵速度** 6.10度/秒\n**転舵所要時間** 10.80秒",
+            "Concealment": "9.30km",
+            "Thrust": "120000馬力"
+        },
+        "SouthCarolina":{
+            "Title": "戦艦Tier III South Carolina",
+            "Desc": "サウスカロライナ級戦艦",
+            "Image": "https://wikiwiki.jp/warships/?plugin=ref&page=South+Carolina&src=South_Carolina_top.jpg&rev=c69d20b1c8ca463b0f2159368c6d28f2",
+            "Viability": "**継戦能力**\n 25800",
+            "MainGunRange": "xx.00km **副砲射程 xx.00km",
+            "Mobility": "**最大速力** 17.51ノット[kt]\n**転舵速度** 6.10度/秒\n**転舵所要時間** 7.40秒",
+            "Concealment": "9.96km",
+            "Thrust": "16500馬力"
         }
     }
 }
