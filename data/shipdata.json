@@ -552,6 +552,16 @@
             "Mobility": "**最大速力** 17.51ノット[kt]\n**転舵速度** 6.10度/秒\n**転舵所要時間** 7.40秒",
             "Concealment": "9.96km",
             "Thrust": "16500馬力"
+        },
+        "Wyoming":{
+            "Title": "戦艦Tier IV Wyoming",
+            "Desc": "ワイオミング級戦艦",
+            "Image": "https://mcpenano.net/WoWsB/USA/Wyoming.jpg",
+            "Viability": "**継戦能力**\n 29928",
+            "MainGunRange": "10.20km **副砲射程 4.50km",
+            "Mobility": "**最大速力** 17.51ノット[kt]\n**転舵速度** 6.10度/秒\n**転舵所要時間** 7.40秒",
+            "Concealment": "9.96km",
+            "Thrust": "16500馬力"
         }
     }
 }
