@@ -21,7 +21,23 @@ import json
 from discord.ext import commands
 
 
-class WoWsb():
+def gen_embed(data: dict, shipname: str) -> discord.Embed:
+    shipdata = data[shipname]
+    embed = discord.Embed(title=shipdata['Title'], description=shipdata['Desc'], color=0xeee657)
+    embed.set_author(name=data['Name'], icon_url=data['Flag'])
+    embed.set_image(url=shipdata['Image'])
+
+    embed.add_field(name='生存性', value=shipdata['Viability'])
+    embed.add_field(name='主砲射程', value=shipdata['MainGunRange'])
+
+    embed.add_field(name='機動性', value=shipdata['Mobility'])
+    embed.add_field(name='隠蔽性', value=shipdata['Concealment'])
+    embed.add_field(name='推力', value=shipdata['Thrust'])
+
+    return embed
+
+
+class WoWsb:
     def __init__(self, bot):
         self.bot = bot
         self.data = None
@@ -46,14 +62,14 @@ class WoWsb():
             if shipname in ('Flag', 'Name'):
                 return
             if shipname in self.data[k]:
-                embed = self.gen_embed(self.data[k], shipname)
+                embed = gen_embed(self.data[k], shipname)
                 await ctx.send(embed=embed)
                 return
 
         await ctx.send('この軍艦の情報は見つかりませんでした。')
 
     @commands.command()
-    async def wowslist(self, ctx, country: str):
+    async def wows_list(self, ctx, country: str):
         try:
             data = self.data[country]
         except KeyError:
@@ -72,30 +88,13 @@ class WoWsb():
 
         await ctx.send(embed=embed)
 
-    def gen_embed(self, data: dict, shipname: str) -> discord.Embed:
-        shipdata = data[shipname]
-        embed = discord.Embed(title=shipdata['Title'], description=shipdata['Desc'], color=0xeee657)
-        embed.set_author(name=data['Name'], icon_url=data['Flag'])
-        embed.set_image(url=shipdata['Image'])
-
-        embed.add_field(name='生存性', value=shipdata['Viability'])
-        embed.add_field(name='主砲射程', value=shipdata['MainGunRange'])
-
-        embed.add_field(name='機動性', value=shipdata['Mobility'])
-        embed.add_field(name='隠蔽性', value=shipdata['Concealment'])
-        embed.add_field(name='推力', value=shipdata['Thrust'])
-
-        return embed
-
-   
-
     @commands.command(name='起床')
     async def get_up(self, ctx):
         voice = await ctx.message.author.voice.channel.connect()
         voice.play(discord.FFmpegPCMAudio('./voice/voice.mp3'))
 
         counter = 0
-        duration = 10   # In seconds
+        duration = 10  # In seconds
         while not counter >= duration:
             await asyncio.sleep(1)
             counter = counter + 1
@@ -107,7 +106,7 @@ class WoWsb():
         voice.play(discord.FFmpegPCMAudio('./voice/voice2.mp3'))
 
         counter = 0
-        duration = 10   # In seconds
+        duration = 10  # In seconds
         while not counter >= duration:
             await asyncio.sleep(1)
             counter = counter + 1
@@ -119,11 +118,12 @@ class WoWsb():
         voice.play(discord.FFmpegPCMAudio('./voice/航空機防御.mp3'))
 
         counter = 0
-        duration = 7   # In seconds
+        duration = 7  # In seconds
         while not counter >= duration:
             await asyncio.sleep(1)
             counter = counter + 1
         await voice.disconnect()
+
     @commands.command()
     async def com(self, ctx):
         embed = discord.Embed(title="WoWsb Bot", description="ヘルプ", color=0xeee657)
@@ -135,13 +135,13 @@ class WoWsb():
 
     @commands.command()
     async def uplog(self, ctx):
-        embed = discord.Embed(title='WoWsb Bot', description=f'Version{self.bot._version}' , color=0xeee657)
+        embed = discord.Embed(title='WoWsb Bot', description=f'Version{self.bot._version}', color=0xeee657)
 
         embed.add_field(name="変更ログ", value=self.bot._uplog)
         embed.set_image(url=self.bot._upimage)
 
-
         await ctx.send(embed=embed)
+
 
 def setup(bot):
     bot.add_cog(WoWsb(bot))

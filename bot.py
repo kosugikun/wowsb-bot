@@ -24,7 +24,7 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 
 _initial_extensions = (
-    'cogs.wowsb',
+    'cogs.wows',
 )
 
 
@@ -61,7 +61,6 @@ class WoWsbBot(Bot):
 
 
 if __name__ == '__main__':
-
     bot = WoWsbBot()
     bot.remove_command('help')
     bot.run('トークン')
